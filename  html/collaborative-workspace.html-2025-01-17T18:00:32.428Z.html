@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Collaborative Workspace</title>
+  <style>
+    /* Reset styles */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    /* Global styles */
+    body {
+      font-family: Arial, sans-serif;
+      color: #333;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 2rem;
+    }
+
+    /* Header styles */
+    header {
+      background-color: #007bff;
+      color: #fff;
+      padding: 1rem;
+    }
+
+    nav ul {
+      display: flex;
+      justify-content: space-between;
+      list-style-type: none;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      padding: 0.5rem 1rem;
+    }
+
+    /* Main content styles */
+    main {
+      padding: 2rem 0;
+    }
+
+    .hero {
+      background-image: url('https://via.placeholder.com/1600x900');
+      background-size: cover;
+      background-position: center;
+      height: 500px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      color: #fff;
+      text-align: center;
+    }
+
+    .features {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 2rem;
+    }
+
+    .feature {
+      text-align: center;
+    }
+
+    .feature img {
+      max-width: 100px;
+      margin-bottom: 1rem;
+    }
+
+    /* Footer styles */
+    footer {
+      background-color: #f5f5f5;
+      padding: 1rem;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Features</a></li>
+        <li><a href="#">Pricing</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h1>Welcome to Collaborative Workspace</h1>
+      <p>Empower your team with our collaborative tools and features.</p>
+      <a href="#" class="btn">Get Started</a>
+    </section>
+
+    <section class="features">
+      <div class="feature">
+        <img src="https://via.placeholder.com/100" alt="Feature 1">
+        <h3>Feature 1</h3>
+        <p>Discover the power of our collaborative features.</p>
+      </div>
+      <div class="feature">
+        <img src="https://via.placeholder.com/100" alt="Feature 2">
+        <h3>Feature 2</h3>
+        <p>Streamline your workflow with our tools.</p>
+      </div>
+      <div class="feature">
+        <img src="https://via.placeholder.com/100" alt="Feature 3">
+        <h3>Feature 3</h3>
+        <p>Collaborate seamlessly with your team.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 Collaborative Workspace. All rights reserved.</p>
+  </footer>
+</body>
+</html>
