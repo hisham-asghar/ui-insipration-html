@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Collaborative Workspace</title>
+  <style>
+    /* Reset some default styles */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      font-size: 16px;
+    }
+
+    /* Header styles */
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    nav ul {
+      list-style-type: none;
+      display: flex;
+    }
+
+    nav li {
+      margin-left: 20px;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+    }
+
+    /* Hero section styles */
+    .hero {
+      background-image: url('https://via.placeholder.com/1920x1080');
+      background-size: cover;
+      background-position: center;
+      height: 500px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #fff;
+      text-align: center;
+    }
+
+    .hero h1 {
+      font-size: 48px;
+      margin-bottom: 20px;
+    }
+
+    .hero p {
+      font-size: 24px;
+      margin-bottom: 40px;
+    }
+
+    .cta-button {
+      background-color: #007bff;
+      color: #fff;
+      padding: 12px 24px;
+      border: none;
+      border-radius: 4px;
+      font-size: 18px;
+      text-decoration: none;
+    }
+
+    /* Features section styles */
+    .features {
+      padding: 80px 20px;
+      text-align: center;
+    }
+
+    .features h2 {
+      font-size: 36px;
+      margin-bottom: 40px;
+    }
+
+    .feature-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      grid-gap: 40px;
+    }
+
+    .feature-item img {
+      width: 100px;
+      height: 100px;
+      margin-bottom: 20px;
+    }
+
+    .feature-item h3 {
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+
+    .feature-item p {
+      font-size: 16px;
+      color: #666;
+    }
+
+    /* Footer styles */
+    footer {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <h1>Collaborative Workspace</h1>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Features</a></li>
+        <li><a href="#">Pricing</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-content">
+        <h1>Unlock Your Team's Potential</h1>
+        <p>Discover the power of collaborative workspace solutions</p>
+        <a href="#" class="cta-button">Get Started</a>
+      </div>
+    </section>
+
+    <section class="features">
+      <h2>Features</h2>
+      <div class="feature-grid">
+        <div class="feature-item">
+          <img src="https://via.placeholder.com/100" alt="Feature 1">
+          <h3>Shared Workspace</h3>
+          <p>Provide a comfortable and productive environment for your team.</p>
+        </div>
+        <div class="feature-item">
+          <img src="https://via.placeholder.com/100" alt="Feature 2">
+          <h3>Flexible Scheduling</h3>
+          <p>Customize your workspace usage to fit your team's needs.</p>
+        </div>
+        <div class="feature-item">
+          <img src="https://via.placeholder.com/100" alt="Feature 3">
+          <h3>Cutting-edge Technology</h3>
+          <p>Stay connected and productive with our advanced tools and amenities.</p>
+        </div>
+        <div class="feature-item">
+          <img src="https://via.placeholder.com/100" alt="Feature 4">
+          <h3>Networking Opportunities</h3>
+          <p>Collaborate and connect with like-minded professionals.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 Collaborative Workspace. All rights reserved.</p>
+  </footer>
+</body>
+</html>
