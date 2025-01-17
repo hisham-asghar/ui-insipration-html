@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Collaborative Cooking Website</title>
+  <style>
+    /* Reset styles */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    /* Global styles */
+    body {
+      font-family: Arial, sans-serif;
+      font-size: 16px;
+      line-height: 1.5;
+      color: #333;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    /* Header styles */
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+    }
+
+    nav ul {
+      display: flex;
+      list-style-type: none;
+    }
+
+    nav li {
+      margin-right: 20px;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+    }
+
+    /* Main content styles */
+    main {
+      padding: 40px 0;
+    }
+
+    .hero {
+      background-image: url('https://via.placeholder.com/1200x400');
+      background-size: cover;
+      background-position: center;
+      height: 400px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #fff;
+      text-align: center;
+    }
+
+    .hero h1 {
+      font-size: 3rem;
+      margin-bottom: 20px;
+    }
+
+    .hero p {
+      font-size: 1.5rem;
+    }
+
+    .featured-recipes {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      grid-gap: 40px;
+      margin-top: 40px;
+    }
+
+    .recipe-card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .recipe-card h3 {
+      margin-top: 20px;
+    }
+
+    /* Footer styles */
+    footer {
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Recipes</a></li>
+        <li><a href="#">Community</a></li>
+        <li><a href="#">About</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div>
+        <h1>Welcome to our Collaborative Cooking Community</h1>
+        <p>Share your favorite recipes and connect with other food enthusiasts.</p>
+      </div>
+    </section>
+
+    <section class="container">
+      <h2>Featured Recipes</h2>
+      <div class="featured-recipes">
+        <div class="recipe-card">
+          <img src="https://via.placeholder.com/300x200" alt="Recipe 1">
+          <h3>Recipe 1</h3>
+        </div>
+        <div class="recipe-card">
+          <img src="https://via.placeholder.com/300x200" alt="Recipe 2">
+          <h3>Recipe 2</h3>
+        </div>
+        <div class="recipe-card">
+          <img src="https://via.placeholder.com/300x200" alt="Recipe 3">
+          <h3>Recipe 3</h3>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 Collaborative Cooking Website. All rights reserved.</p>
+  </footer>
+</body>
+</html>
