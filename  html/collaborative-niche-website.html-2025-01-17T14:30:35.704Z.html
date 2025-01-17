@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Collaborative Niche Website</title>
+  <style>
+    /* Reset CSS */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    
+    /* Global Styles */
+    body {
+      font-family: Arial, sans-serif;
+      font-size: 16px;
+      line-height: 1.5;
+      color: #333;
+    }
+    
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    
+    /* Header Styles */
+    header {
+      background-color: #007bff;
+      color: #fff;
+      padding: 20px 0;
+    }
+    
+    nav ul {
+      list-style-type: none;
+      display: flex;
+      justify-content: center;
+    }
+    
+    nav li {
+      margin: 0 20px;
+    }
+    
+    nav a {
+      color: #fff;
+      text-decoration: none;
+    }
+    
+    /* Main Content Styles */
+    main {
+      padding: 40px 0;
+    }
+    
+    .hero {
+      background-image: url('https://via.placeholder.com/1200x600');
+      background-size: cover;
+      background-position: center;
+      height: 400px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #fff;
+      text-align: center;
+      padding: 0 20px;
+    }
+    
+    .hero h1 {
+      font-size: 48px;
+      margin-bottom: 20px;
+    }
+    
+    .features {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      margin-top: 40px;
+    }
+    
+    .feature {
+      flex-basis: 30%;
+      margin-bottom: 40px;
+      text-align: center;
+    }
+    
+    .feature img {
+      max-width: 100%;
+      height: auto;
+      margin-bottom: 20px;
+    }
+    
+    /* Footer Styles */
+    footer {
+      background-color: #007bff;
+      color: #fff;
+      padding: 20px 0;
+      text-align: center;
+    }
+    
+    /* Responsive Styles */
+    @media (max-width: 768px) {
+      .container {
+        padding: 10px;
+      }
+      
+      nav li {
+        margin: 0 10px;
+      }
+      
+      .hero h1 {
+        font-size: 36px;
+      }
+      
+      .features {
+        flex-direction: column;
+      }
+      
+      .feature {
+        flex-basis: auto;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Features</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <main>
+    <div class="hero">
+      <div class="container">
+        <h1>Welcome to Collaborative Niche Website</h1>
+        <p>Discover the power of collaboration in our niche community.</p>
+      </div>
+    </div>
+    
+    <div class="container">
+      <div class="features">
+        <div class="feature">
+          <img src="https://via.placeholder.com/300x200" alt="Feature 1">
+          <h3>Feature 1</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+        <div class="feature">
+          <img src="https://via.placeholder.com/300x200" alt="Feature 2">
+          <h3>Feature 2</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+        <div class="feature">
+          <img src="https://via.placeholder.com/300x200" alt="Feature 3">
+          <h3>Feature 3</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+      </div>
+    </div>
+  </main>
+  
+  <footer>
+    <p>&copy; 2023 Collaborative Niche Website. All rights reserved.</p>
+  </footer>
+</body>
+</html>
