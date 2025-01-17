@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Collaborative Website Template</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    /* Reset some default styles */
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    
+    /* Global styles */
+    body {
+      font-family: Arial, sans-serif;
+      font-size: 16px;
+      line-height: 1.5;
+      color: #333;
+    }
+    
+    /* Header styles */
+    header {
+      background-color: #007bff;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    
+    /* Navigation styles */
+    nav {
+      display: flex;
+      justify-content: center;
+      background-color: #f2f2f2;
+      padding: 10px;
+    }
+    
+    nav a {
+      color: #333;
+      text-decoration: none;
+      padding: 10px 20px;
+      margin: 0 10px;
+    }
+    
+    nav a:hover {
+      background-color: #007bff;
+      color: #fff;
+    }
+    
+    /* Main content styles */
+    main {
+      padding: 20px;
+    }
+    
+    section {
+      margin-bottom: 40px;
+    }
+    
+    h2 {
+      margin-bottom: 20px;
+    }
+    
+    /* Image styles */
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+    
+    /* Footer styles */
+    footer {
+      background-color: #007bff;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    
+    /* Responsive styles */
+    @media (max-width: 768px) {
+      nav {
+        flex-direction: column;
+        align-items: center;
+      }
+      
+      nav a {
+        margin: 5px 0;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Collaborative Website</h1>
+  </header>
+  
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Services</a>
+    <a href="#">Contact</a>
+  </nav>
+  
+  <main>
+    <section>
+      <h2>Welcome to our Collaborative Website</h2>
+      <p>This is a responsive website template designed for collaborative projects. You can customize it to fit your specific needs.</p>
+      <img src="https://via.placeholder.com/800x400" alt="Collaborative Image">
+    </section>
+    
+    <section>
+      <h2>About Us</h2>
+      <p>We are a team of professionals dedicated to providing high-quality collaborative solutions. Our mission is to help you achieve your goals through effective teamwork and communication.</p>
+      <img src="https://via.placeholder.com/800x400" alt="About Us">
+    </section>
+    
+    <section>
+      <h2>Our Services</h2>
+      <ul>
+        <li>Project management</li>
+        <li>Communication tools</li>
+        <li>Workflow optimization</li>
+        <li>Data analysis</li>
+      </ul>
+      <img src="https://via.placeholder.com/800x400" alt="Our Services">
+    </section>
+    
+    <section>
+      <h2>Contact Us</h2>
+      <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+        
+        <button type="submit">Send</button>
+      </form>
+    </section>
+  </main>
+  
+  <footer>
+    <p>&copy; 2023 Collaborative Website. All rights reserved.</p>
+  </footer>
+</body>
+</html>
