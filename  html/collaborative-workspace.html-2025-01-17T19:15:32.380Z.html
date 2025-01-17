@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Collaborative Workspace</title>
+  <style>
+    /* Reset styles */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    /* Global styles */
+    body {
+      font-family: Arial, sans-serif;
+      font-size: 16px;
+      line-height: 1.5;
+    }
+
+    /* Header styles */
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+    }
+
+    nav li {
+      margin-left: 20px;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+    }
+
+    /* Main content styles */
+    main {
+      padding: 40px;
+    }
+
+    .hero {
+      background-image: url('https://via.placeholder.com/1920x1080');
+      background-size: cover;
+      background-position: center;
+      height: 500px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      color: #fff;
+      text-align: center;
+    }
+
+    .features {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      grid-gap: 40px;
+      margin-top: 40px;
+    }
+
+    .feature {
+      text-align: center;
+    }
+
+    .feature img {
+      max-width: 100%;
+      height: auto;
+    }
+
+    /* Footer styles */
+    footer {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Collaborative Workspace</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h2>Welcome to Our Collaborative Workspace</h2>
+      <p>Unleash your creativity and productivity in our modern, flexible workspace.</p>
+    </section>
+
+    <section class="features">
+      <div class="feature">
+        <img src="https://via.placeholder.com/300x200" alt="Feature 1">
+        <h3>Flexible Workspaces</h3>
+        <p>Choose from a variety of workspace options to suit your needs.</p>
+      </div>
+      <div class="feature">
+        <img src="https://via.placeholder.com/300x200" alt="Feature 2">
+        <h3>Networking Opportunities</h3>
+        <p>Connect with like-minded professionals and expand your network.</p>
+      </div>
+      <div class="feature">
+        <img src="https://via.placeholder.com/300x200" alt="Feature 3">
+        <h3>Cutting-Edge Technology</h3>
+        <p>Access the latest tools and technologies to boost your productivity.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 Collaborative Workspace. All rights reserved.</p>
+  </footer>
+</body>
+</html>
