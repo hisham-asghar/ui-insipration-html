@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Collaborative Photography</title>
+  <style>
+    /* Reset some default styles */
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    /* Body styles */
+    body {
+      font-family: Arial, sans-serif;
+      font-size: 16px;
+      line-height: 1.5;
+      color: #333;
+    }
+
+    /* Header styles */
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    nav ul {
+      display: flex;
+      justify-content: center;
+      list-style-type: none;
+    }
+
+    nav li {
+      margin: 0 10px;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+    }
+
+    /* Main content styles */
+    main {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 40px 20px;
+    }
+
+    .hero {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 40px;
+    }
+
+    .hero img {
+      max-width: 50%;
+      height: auto;
+    }
+
+    .hero-content {
+      flex-basis: 45%;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      grid-gap: 20px;
+    }
+
+    .gallery img {
+      width: 100%;
+      height: auto;
+    }
+
+    /* Footer styles */
+    footer {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    /* Responsive styles */
+    @media (max-width: 768px) {
+      .hero {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      .hero img {
+        max-width: 100%;
+        margin-bottom: 20px;
+      }
+
+      .hero-content {
+        flex-basis: auto;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Collaborative Photography</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Gallery</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <img src="https://picsum.photos/id/1/800/600" alt="Hero Image">
+      <div class="hero-content">
+        <h2>Welcome to Collaborative Photography</h2>
+        <p>Discover the power of collaborative photography and explore a world of shared creativity.</p>
+      </div>
+    </section>
+
+    <section class="gallery">
+      <img src="https://picsum.photos/id/2/600/400" alt="Gallery Image 1">
+      <img src="https://picsum.photos/id/3/600/400" alt="Gallery Image 2">
+      <img src="https://picsum.photos/id/4/600/400" alt="Gallery Image 3">
+      <img src="https://picsum.photos/id/5/600/400" alt="Gallery Image 4">
+      <img src="https://picsum.photos/id/6/600/400" alt="Gallery Image 5">
+      <img src="https://picsum.photos/id/7/600/400" alt="Gallery Image 6">
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 Collaborative Photography. All rights reserved.</p>
+  </footer>
+</body>
+</html>
