@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Collaborative Workspace</title>
+  <style>
+    /* Reset CSS */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    /* Global Styles */
+    body {
+      font-family: Arial, sans-serif;
+      font-size: 16px;
+      line-height: 1.5;
+      color: #333;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    /* Header Styles */
+    header {
+      background-color: #007bff;
+      color: #fff;
+      padding: 20px 0;
+    }
+
+    nav ul {
+      display: flex;
+      justify-content: center;
+      list-style-type: none;
+    }
+
+    nav li {
+      margin: 0 20px;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+    }
+
+    /* Hero Section Styles */
+    .hero {
+      background-image: url('https://picsum.photos/id/1/1200/600');
+      background-size: cover;
+      background-position: center;
+      height: 500px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      color: #fff;
+      text-align: center;
+    }
+
+    .hero h1 {
+      font-size: 48px;
+      margin-bottom: 20px;
+    }
+
+    .hero p {
+      font-size: 24px;
+      margin-bottom: 40px;
+    }
+
+    .btn {
+      display: inline-block;
+      background-color: #007bff;
+      color: #fff;
+      padding: 10px 20px;
+      border-radius: 5px;
+      text-decoration: none;
+      transition: background-color 0.3s;
+    }
+
+    .btn:hover {
+      background-color: #0056b3;
+    }
+
+    /* Features Section Styles */
+    .features {
+      padding: 60px 0;
+    }
+
+    .features h2 {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    .feature-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-gap: 40px;
+    }
+
+    .feature-item {
+      text-align: center;
+    }
+
+    .feature-item img {
+      max-width: 100px;
+      margin-bottom: 20px;
+    }
+
+    .feature-item h3 {
+      margin-bottom: 10px;
+    }
+
+    /* Footer Styles */
+    footer {
+      background-color: #333;
+      color: #fff;
+      padding: 20px 0;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Features</a></li>
+        <li><a href="#">Pricing</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h1>Welcome to Collaborative Workspace</h1>
+      <p>Empower your team with our powerful collaboration tools.</p>
+      <a href="#" class="btn">Get Started</a>
+    </section>
+
+    <section class="features">
+      <div class="container">
+        <h2>Features</h2>
+        <div class="feature-grid">
+          <div class="feature-item">
+            <img src="https://picsum.photos/id/2/100/100" alt="Feature 1">
+            <h3>Real-time Collaboration</h3>
+            <p>Work together in real-time on documents, spreadsheets, and more.</p>
+          </div>
+          <div class="feature-item">
+            <img src="https://picsum.photos/id/3/100/100" alt="Feature 2">
+            <h3>File Sharing</h3>
+            <p>Easily share files and documents with your team.</p>
+          </div>
+          <div class="feature-item">
+            <img src="https://picsum.photos/id/4/100/100" alt="Feature 3">
+            <h3>Task Management</h3>
+            <p>Organize your team's tasks and projects with our powerful tools.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 Collaborative Workspace. All rights reserved.</p>
+  </footer>
+</body>
+</html>
