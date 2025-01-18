@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Collaborative Workspace</title>
+  <style>
+    /* Global Styles */
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+    
+    /* Header Styles */
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+    }
+    
+    nav li {
+      margin-right: 20px;
+    }
+    
+    nav a {
+      color: #fff;
+      text-decoration: none;
+    }
+    
+    /* Main Content Styles */
+    main {
+      padding: 40px;
+    }
+    
+    .hero {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+    
+    .hero h1 {
+      font-size: 36px;
+      margin-bottom: 20px;
+    }
+    
+    .hero p {
+      font-size: 18px;
+      margin-bottom: 40px;
+    }
+    
+    .features {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+    
+    .feature {
+      width: 30%;
+      margin-bottom: 40px;
+      text-align: center;
+    }
+    
+    .feature img {
+      width: 100px;
+      height: 100px;
+      margin-bottom: 20px;
+    }
+    
+    /* Footer Styles */
+    footer {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    
+    /* Responsive Styles */
+    @media (max-width: 768px) {
+      header {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+      
+      nav li {
+        margin-right: 10px;
+      }
+      
+      .feature {
+        width: 45%;
+      }
+    }
+    
+    @media (max-width: 480px) {
+      .feature {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Collaborative Workspace</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Features</a></li>
+        <li><a href="#">Pricing</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <main>
+    <section class="hero">
+      <h1>Elevate Your Collaboration</h1>
+      <p>Discover the power of our collaborative workspace solution.</p>
+      <a href="#" class="cta-button">Get Started</a>
+    </section>
+    
+    <section class="features">
+      <div class="feature">
+        <img src="https://via.placeholder.com/100" alt="Feature 1">
+        <h3>Seamless Collaboration</h3>
+        <p>Effortlessly work together with your team in real-time.</p>
+      </div>
+      <div class="feature">
+        <img src="https://via.placeholder.com/100" alt="Feature 2">
+        <h3>Secure File Sharing</h3>
+        <p>Safely share and access important documents and files.</p>
+      </div>
+      <div class="feature">
+        <img src="https://via.placeholder.com/100" alt="Feature 3">
+        <h3>Intuitive Interface</h3>
+        <p>Enjoy a user-friendly experience that boosts productivity.</p>
+      </div>
+    </section>
+  </main>
+  
+  <footer>
+    <p>&copy; 2023 Collaborative Workspace. All rights reserved.</p>
+  </footer>
+</body>
+</html>
