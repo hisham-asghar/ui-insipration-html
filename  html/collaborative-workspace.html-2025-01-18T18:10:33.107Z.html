@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Collaborative Workspace</title>
+  <style>
+    /* Global Styles */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    /* Header Styles */
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+    }
+
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+    }
+
+    nav li {
+      margin-right: 20px;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+    }
+
+    /* Main Content Styles */
+    main {
+      padding: 40px;
+    }
+
+    .hero {
+      background-image: url('https://example.com/hero-image.jpg');
+      background-size: cover;
+      background-position: center;
+      height: 400px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #fff;
+      text-align: center;
+    }
+
+    .features {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      grid-gap: 40px;
+    }
+
+    .feature {
+      text-align: center;
+    }
+
+    .feature img {
+      max-width: 100%;
+      height: auto;
+    }
+
+    /* Footer Styles */
+    footer {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    /* Responsive Styles */
+    @media (max-width: 768px) {
+      header {
+        padding: 10px;
+      }
+
+      nav li {
+        margin-right: 10px;
+      }
+
+      main {
+        padding: 20px;
+      }
+
+      .hero {
+        height: 300px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Features</a></li>
+        <li><a href="#">Pricing</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h1>Welcome to our Collaborative Workspace</h1>
+      <p>Enhance your productivity and collaboration with our powerful tools.</p>
+    </section>
+
+    <section class="features">
+      <div class="feature">
+        <img src="https://example.com/feature1.jpg" alt="Feature 1">
+        <h2>Powerful Collaboration</h2>
+        <p>Seamlessly work together with your team on projects.</p>
+      </div>
+      <div class="feature">
+        <img src="https://example.com/feature2.jpg" alt="Feature 2">
+        <h2>Real-time Communication</h2>
+        <p>Stay connected with your team through our chat and video features.</p>
+      </div>
+      <div class="feature">
+        <img src="https://example.com/feature3.jpg" alt="Feature 3">
+        <h2>Intuitive Task Management</h2>
+        <p>Organize your tasks and projects with our easy-to-use interface.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 Collaborative Workspace. All rights reserved.</p>
+  </footer>
+</body>
+</html>
