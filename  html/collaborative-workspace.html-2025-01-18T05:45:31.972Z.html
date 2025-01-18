@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Collaborative Workspace</title>
+  <style>
+    /* Global Styles */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    /* Header Styles */
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+    }
+
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+    }
+
+    nav ul li {
+      margin: 0 10px;
+    }
+
+    nav ul li a {
+      color: #fff;
+      text-decoration: none;
+    }
+
+    /* Main Content Styles */
+    main {
+      padding: 40px;
+    }
+
+    .hero {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    .hero h1 {
+      font-size: 36px;
+      margin-bottom: 20px;
+    }
+
+    .hero p {
+      font-size: 18px;
+      margin-bottom: 30px;
+    }
+
+    .features {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+
+    .feature {
+      width: 30%;
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    .feature img {
+      max-width: 100%;
+      height: auto;
+    }
+
+    /* Footer Styles */
+    footer {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    /* Responsive Styles */
+    @media (max-width: 768px) {
+      .features {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .feature {
+        width: 80%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Features</a></li>
+        <li><a href="#">Pricing</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h1>Welcome to Our Collaborative Workspace</h1>
+      <p>Unlock your team's potential with our cutting-edge collaboration tools.</p>
+      <a href="#" class="cta-button">Get Started</a>
+    </section>
+
+    <section class="features">
+      <div class="feature">
+        <img src="https://via.placeholder.com/300x200" alt="Feature 1">
+        <h3>Seamless Collaboration</h3>
+        <p>Easily share files, ideas, and updates with your team.</p>
+      </div>
+      <div class="feature">
+        <img src="https://via.placeholder.com/300x200" alt="Feature 2">
+        <h3>Real-time Communication</h3>
+        <p>Stay connected with your team through chat, video, and more.</p>
+      </div>
+      <div class="feature">
+        <img src="https://via.placeholder.com/300x200" alt="Feature 3">
+        <h3>Project Management Tools</h3>
+        <p>Streamline your workflows and stay on top of your projects.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 Collaborative Workspace. All rights reserved.</p>
+  </footer>
+</body>
+</html>
