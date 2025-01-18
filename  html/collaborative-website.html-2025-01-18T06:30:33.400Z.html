@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Collaborative Website</title>
+  <style>
+    /* Reset styles */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    /* Global styles */
+    body {
+      font-family: Arial, sans-serif;
+      font-size: 16px;
+      line-height: 1.5;
+      color: #333;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    /* Header styles */
+    header {
+      background-color: #4CAF50;
+      color: #fff;
+      padding: 20px 0;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    nav ul li a {
+      color: #fff;
+      text-decoration: none;
+      padding: 10px;
+    }
+
+    /* Main content styles */
+    main {
+      padding: 40px 0;
+    }
+
+    section {
+      margin-bottom: 40px;
+    }
+
+    h2 {
+      margin-bottom: 20px;
+    }
+
+    .feature-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-gap: 20px;
+    }
+
+    .feature-grid img {
+      max-width: 100%;
+      height: auto;
+    }
+
+    /* Footer styles */
+    footer {
+      background-color: #333;
+      color: #fff;
+      padding: 20px 0;
+      text-align: center;
+    }
+
+    /* Responsive styles */
+    @media (max-width: 768px) {
+      .feature-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+
+    @media (max-width: 480px) {
+      .feature-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Features</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <div class="container">
+        <h2>Welcome to our Collaborative Website</h2>
+        <p>This is a responsive website designed for collaboration. You can use it to share ideas, work on projects, and connect with others.</p>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <h2>Featured Collaborations</h2>
+        <div class="feature-grid">
+          <div>
+            <img src="https://via.placeholder.com/300x200" alt="Collaboration 1">
+            <h3>Collaboration 1</h3>
+            <p>Description of Collaboration 1</p>
+          </div>
+          <div>
+            <img src="https://via.placeholder.com/300x200" alt="Collaboration 2">
+            <h3>Collaboration 2</h3>
+            <p>Description of Collaboration 2</p>
+          </div>
+          <div>
+            <img src="https://via.placeholder.com/300x200" alt="Collaboration 3">
+            <h3>Collaboration 3</h3>
+            <p>Description of Collaboration 3</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 Collaborative Website. All rights reserved.</p>
+  </footer>
+</body>
+</html>
