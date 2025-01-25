@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collaborative Learning Platform</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: space-around;
+            background-color: #333;
+            padding: 0.5rem;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 0.5rem 1rem;
+        }
+        nav a:hover {
+            background-color: #575757;
+        }
+        .container {
+            padding: 2rem;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1rem;
+        }
+        .card {
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            overflow: hidden;
+            text-align: center;
+        }
+        .card img {
+            width: 100%;
+            height: auto;
+        }
+        .card h3 {
+            margin: 1rem 0;
+        }
+        .card p {
+            padding: 0 1rem 1rem;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Collaborative Learning Platform</h1>
+    </header>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#courses">Courses</a>
+        <a href="#about">About Us</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="container">
+        <section id="home">
+            <h2>Welcome to Our Platform</h2>
+            <p>Join our community to learn, share, and grow together.</p>
+        </section>
+        <section id="courses">
+            <h2>Our Courses</h2>
+            <div class="grid">
+                <div class="card">
+                    <img src="https://via.placeholder.com/300" alt="Course 1">
+                    <h3>Course 1</h3>
+                    <p>Learn the basics of collaborative learning.</p>
+                </div>
+                <div class="card">
+                    <img src="https://via.placeholder.com/300" alt="Course 2">
+                    <h3>Course 2</h3>
+                    <p>Advanced techniques for effective collaboration.</p>
+                </div>
+                <div class="card">
+                    <img src="https://via.placeholder.com/300" alt="Course 3">
+                    <h3>Course 3</h3>
+                    <p>Mastering group projects and teamwork.</p>
+                </div>
+            </div>
+        </section>
+        <section id="about">
+            <h2>About Us</h2>
+            <p>We are a team of educators dedicated to fostering collaborative learning environments.</p>
+        </section>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>Email us at <a href="mailto:info@collaborativelearning.com">info@collaborativelearning.com</a>.</p>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2023 Collaborative Learning Platform. All rights reserved.</p>
+    </footer>
+</body>
+</html>
