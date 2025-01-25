@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collaborative Workspace</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+        nav a {
+            color: white;
+            padding: 1rem;
+            text-decoration: none;
+            text-align: center;
+        }
+        nav a:hover {
+            background-color: #575757;
+        }
+        .container {
+            padding: 2rem;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1rem;
+        }
+        .card {
+            background-color: #f4f4f4;
+            padding: 1rem;
+            border-radius: 5px;
+            text-align: center;
+        }
+        .card img {
+            max-width: 100%;
+            border-radius: 5px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Collaborative Workspace</h1>
+    </header>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="container">
+        <section id="home">
+            <h2>Welcome to Our Collaborative Workspace</h2>
+            <p>Join our community and collaborate with like-minded individuals to achieve your goals.</p>
+            <div class="grid">
+                <div class="card">
+                    <img src="https://via.placeholder.com/300" alt="Workspace Image 1">
+                    <h3>Workspace 1</h3>
+                    <p>Description of workspace 1.</p>
+                </div>
+                <div class="card">
+                    <img src="https://via.placeholder.com/300" alt="Workspace Image 2">
+                    <h3>Workspace 2</h3>
+                    <p>Description of workspace 2.</p>
+                </div>
+                <div class="card">
+                    <img src="https://via.placeholder.com/300" alt="Workspace Image 3">
+                    <h3>Workspace 3</h3>
+                    <p>Description of workspace 3.</p>
+                </div>
+            </div>
+        </section>
+        <section id="about">
+            <h2>About Us</h2>
+            <p>We are a community-driven workspace dedicated to fostering collaboration and innovation.</p>
+        </section>
+        <section id="services">
+            <h2>Our Services</h2>
+            <p>We offer a variety of services to support your collaborative efforts, including meeting rooms, networking events, and more.</p>
+        </section>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>Reach out to us to learn more about our workspace and how you can get involved.</p>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2023 Collaborative Workspace. All rights reserved.</p>
+    </footer>
+</body>
+</html>
