@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collaborative Coding Platform</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+        nav a:hover {
+            background-color: #575757;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            padding: 20px;
+        }
+        .main-content {
+            flex: 70%;
+            padding: 20px;
+        }
+        .sidebar {
+            flex: 30%;
+            padding: 20px;
+        }
+        .footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        @media (max-width: 700px) {
+            .container {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Collaborative Coding Platform</h1>
+    </header>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Projects</a>
+        <a href="#">Collaborate</a>
+        <a href="#">About</a>
+    </nav>
+    <div class="container">
+        <div class="main-content">
+            <h2>Welcome to Our Platform</h2>
+            <p>Join our community of developers and collaborate on exciting projects. Whether you're a beginner or an expert, there's a place for you here.</p>
+            <img src="https://via.placeholder.com/800x400" alt="Collaborative Coding" style="width:100%;">
+        </div>
+        <div class="sidebar">
+            <h3>Latest Projects</h3>
+            <p>Check out the latest projects our community is working on:</p>
+            <ul>
+                <li>Project Alpha</li>
+                <li>Project Beta</li>
+                <li>Project Gamma</li>
+            </ul>
+            <img src="https://via.placeholder.com/300x200" alt="Latest Projects" style="width:100%;">
+        </div>
+    </div>
+    <div class="footer">
+        <p>&copy; 2023 Collaborative Coding Platform. All rights reserved.</p>
+    </div>
+</body>
+</html>
