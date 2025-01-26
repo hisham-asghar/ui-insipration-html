@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collaborative Coding Platform</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+        nav a {
+            color: white;
+            padding: 1rem;
+            text-decoration: none;
+            text-align: center;
+        }
+        nav a:hover {
+            background-color: #575757;
+        }
+        .container {
+            padding: 2rem;
+        }
+        .features {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .feature {
+            flex: 1 1 30%;
+            margin: 1rem;
+            text-align: center;
+        }
+        .feature img {
+            max-width: 100%;
+            height: auto;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            margin-top: 2rem;
+        }
+        @media (max-width: 768px) {
+            .features {
+                flex-direction: column;
+            }
+            .feature {
+                flex: 1 1 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Collaborative Coding Platform</h1>
+    </header>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#features">Features</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="container">
+        <section id="home">
+            <h2>Welcome to Our Platform</h2>
+            <p>Join a community of developers and collaborate on projects in real-time.</p>
+            <img src="https://via.placeholder.com/1200x400" alt="Collaborative Coding">
+        </section>
+        <section id="features">
+            <h2>Features</h2>
+            <div class="features">
+                <div class="feature">
+                    <img src="https://via.placeholder.com/300x200" alt="Real-Time Collaboration">
+                    <h3>Real-Time Collaboration</h3>
+                    <p>Work together with your team in real-time.</p>
+                </div>
+                <div class="feature">
+                    <img src="https://via.placeholder.com/300x200" alt="Code Sharing">
+                    <h3>Code Sharing</h3>
+                    <p>Easily share code snippets with your peers.</p>
+                </div>
+                <div class="feature">
+                    <img src="https://via.placeholder.com/300x200" alt="Version Control">
+                    <h3>Version Control</h3>
+                    <p>Keep track of changes with integrated version control.</p>
+                </div>
+            </div>
+        </section>
+        <section id="about">
+            <h2>About Us</h2>
+            <p>We are a team of passionate developers dedicated to creating tools that make collaboration easier.</p>
+        </section>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>Have questions? Reach out to us at <a href="mailto:info@collabcoding.com">info@collabcoding.com</a>.</p>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2023 Collaborative Coding Platform. All rights reserved.</p>
+    </footer>
+</body>
+</html>
