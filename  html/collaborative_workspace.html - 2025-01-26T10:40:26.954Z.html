@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collaborative Workspace</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 1rem;
+        }
+        .card {
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            margin: 1rem;
+            padding: 1rem;
+            width: 300px;
+            text-align: center;
+        }
+        .card img {
+            max-width: 100%;
+            border-radius: 5px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            margin-top: 1rem;
+        }
+        @media (max-width: 600px) {
+            .card {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Collaborative Workspace</h1>
+        <p>Bringing teams together for better productivity</p>
+    </header>
+    <div class="container">
+        <div class="card">
+            <img src="https://via.placeholder.com/300" alt="Team Collaboration">
+            <h2>Team Collaboration</h2>
+            <p>Work together seamlessly with our collaborative tools.</p>
+        </div>
+        <div class="card">
+            <img src="https://via.placeholder.com/300" alt="Project Management">
+            <h2>Project Management</h2>
+            <p>Efficiently manage your projects with our intuitive tools.</p>
+        </div>
+        <div class="card">
+            <img src="https://via.placeholder.com/300" alt="File Sharing">
+            <h2>File Sharing</h2>
+            <p>Share files securely and easily with your team.</p>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2023 Collaborative Workspace. All rights reserved.</p>
+    </footer>
+</body>
+</html>
