@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collaborative Learning Platform</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+        nav a {
+            color: white;
+            padding: 1rem;
+            text-decoration: none;
+            text-align: center;
+        }
+        nav a:hover {
+            background-color: #575757;
+        }
+        .container {
+            padding: 2rem;
+        }
+        .hero {
+            background-image: url('https://via.placeholder.com/1200x400');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            padding: 4rem 2rem;
+            text-align: center;
+        }
+        .features {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin-top: 2rem;
+        }
+        .feature {
+            flex: 1 1 30%;
+            margin: 1rem;
+            text-align: center;
+        }
+        .feature img {
+            max-width: 100%;
+            height: auto;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            margin-top: 2rem;
+        }
+        @media (max-width: 768px) {
+            .features {
+                flex-direction: column;
+            }
+            .feature {
+                flex: 1 1 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Collaborative Learning Platform</h1>
+    </header>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Courses</a>
+        <a href="#">Community</a>
+        <a href="#">About</a>
+    </nav>
+    <div class="hero">
+        <h2>Learn Together, Grow Together</h2>
+        <p>Join our community to enhance your skills and collaborate with others.</p>
+    </div>
+    <div class="container">
+        <div class="features">
+            <div class="feature">
+                <img src="https://via.placeholder.com/300x200" alt="Interactive Courses">
+                <h3>Interactive Courses</h3>
+                <p>Engage with interactive courses designed for collaborative learning.</p>
+            </div>
+            <div class="feature">
+                <img src="https://via.placeholder.com/300x200" alt="Community Forums">
+                <h3>Community Forums</h3>
+                <p>Discuss ideas, ask questions, and share knowledge with peers.</p>
+            </div>
+            <div class="feature">
+                <img src="https://via.placeholder.com/300x200" alt="Expert Mentors">
+                <h3>Expert Mentors</h3>
+                <p>Get guidance from industry experts and experienced mentors.</p>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2023 Collaborative Learning Platform. All rights reserved.</p>
+    </footer>
+</body>
+</html>
