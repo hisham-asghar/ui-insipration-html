@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collaborative Coding Platform</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+        nav a {
+            color: white;
+            padding: 1rem;
+            text-decoration: none;
+            text-align: center;
+        }
+        nav a:hover {
+            background-color: #575757;
+        }
+        .container {
+            padding: 2rem;
+        }
+        .features {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .feature {
+            flex: 1 1 300px;
+            margin: 1rem;
+            text-align: center;
+        }
+        .feature img {
+            max-width: 100%;
+            height: auto;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            margin-top: 2rem;
+        }
+        @media (max-width: 768px) {
+            nav {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Collaborative Coding Platform</h1>
+        <p>Code together, build together, succeed together.</p>
+    </header>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Features</a>
+        <a href="#">Pricing</a>
+        <a href="#">Contact</a>
+    </nav>
+    <div class="container">
+        <h2>Features</h2>
+        <div class="features">
+            <div class="feature">
+                <img src="https://via.placeholder.com/300" alt="Real-time Collaboration">
+                <h3>Real-time Collaboration</h3>
+                <p>Work on code simultaneously with your team in real-time.</p>
+            </div>
+            <div class="feature">
+                <img src="https://via.placeholder.com/300" alt="Version Control">
+                <h3>Version Control</h3>
+                <p>Easily manage and track changes to your codebase.</p>
+            </div>
+            <div class="feature">
+                <img src="https://via.placeholder.com/300" alt="Integrated Chat">
+                <h3>Integrated Chat</h3>
+                <p>Communicate with your team without leaving the platform.</p>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2023 Collaborative Coding Platform. All rights reserved.</p>
+    </footer>
+</body>
+</html>
