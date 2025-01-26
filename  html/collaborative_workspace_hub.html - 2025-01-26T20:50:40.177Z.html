@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collaborative Workspace Hub</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+        nav a {
+            color: white;
+            padding: 1rem;
+            text-decoration: none;
+            text-align: center;
+        }
+        nav a:hover {
+            background-color: #575757;
+        }
+        .container {
+            padding: 2rem;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1rem;
+        }
+        .card {
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            overflow: hidden;
+            text-align: center;
+        }
+        .card img {
+            width: 100%;
+            height: auto;
+        }
+        .card h3 {
+            margin: 1rem 0;
+        }
+        .card p {
+            padding: 0 1rem;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            margin-top: 2rem;
+        }
+        @media (max-width: 600px) {
+            nav {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Collaborative Workspace Hub</h1>
+        <p>Your space to connect, create, and collaborate.</p>
+    </header>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="container">
+        <section id="home">
+            <h2>Welcome to Our Collaborative Space</h2>
+            <div class="grid">
+                <div class="card">
+                    <img src="https://via.placeholder.com/300" alt="Workspace Image">
+                    <h3>Flexible Workspaces</h3>
+                    <p>Find the perfect workspace for your team, whether you need a private office or a shared desk.</p>
+                </div>
+                <div class="card">
+                    <img src="https://via.placeholder.com/300" alt="Meeting Room Image">
+                    <h3>Meeting Rooms</h3>
+                    <p>Book meeting rooms equipped with the latest technology for your next brainstorming session.</p>
+                </div>
+                <div class="card">
+                    <img src="https://via.placeholder.com/300" alt="Event Space Image">
+                    <h3>Event Spaces</h3>
+                    <p>Host workshops, seminars, and networking events in our versatile event spaces.</p>
+                </div>
+            </div>
+        </section>
+        <section id="about">
+            <h2>About Us</h2>
+            <p>We are dedicated to providing innovative and flexible workspace solutions for teams of all sizes. Our mission is to foster collaboration and creativity in a dynamic environment.</p>
+        </section>
+        <section id="services">
+            <h2>Our Services</h2>
+            <p>From coworking spaces to private offices, we offer a range of services designed to meet your business needs. Our amenities include high-speed internet, printing services, and 24/7 access.</p>
+        </section>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>Have questions or want to book a tour? Reach out to us at <a href="mailto:info@collaborativehub.com">info@collaborativehub.com</a> or call us at (123) 456-7890.</p>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2023 Collaborative Workspace Hub. All rights reserved.</p>
+    </footer>
+</body>
+</html>
