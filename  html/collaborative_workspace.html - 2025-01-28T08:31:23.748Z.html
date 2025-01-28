@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collaborative Workspace</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 1rem;
+        }
+        .card {
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            margin: 1rem;
+            padding: 1rem;
+            width: 300px;
+            text-align: center;
+        }
+        .card img {
+            max-width: 100%;
+            border-radius: 5px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            margin-top: 1rem;
+        }
+        @media (max-width: 600px) {
+            .card {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Collaborative Workspace</h1>
+        <p>Your space to create, collaborate, and innovate.</p>
+    </header>
+    <div class="container">
+        <div class="card">
+            <img src="https://via.placeholder.com/300" alt="Workspace 1">
+            <h2>Workspace 1</h2>
+            <p>Perfect for small teams looking to collaborate effectively.</p>
+        </div>
+        <div class="card">
+            <img src="https://via.placeholder.com/300" alt="Workspace 2">
+            <h2>Workspace 2</h2>
+            <p>Ideal for medium-sized teams with flexible seating arrangements.</p>
+        </div>
+        <div class="card">
+            <img src="https://via.placeholder.com/300" alt="Workspace 3">
+            <h2>Workspace 3</h2>
+            <p>Large open spaces for big teams and creative brainstorming sessions.</p>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2023 Collaborative Workspace. All rights reserved.</p>
+    </footer>
+</body>
+</html>
