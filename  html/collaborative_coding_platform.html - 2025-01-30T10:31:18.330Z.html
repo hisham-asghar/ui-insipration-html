@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collaborative Coding Platform</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 20px;
+        }
+        .card {
+            box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+            transition: 0.3s;
+            width: 30%;
+            margin: 10px;
+            text-align: center;
+        }
+        .card:hover {
+            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+        }
+        .card img {
+            width: 100%;
+            height: auto;
+        }
+        .card h3 {
+            margin: 10px 0;
+        }
+        .card p {
+            padding: 0 15px;
+        }
+        @media (max-width: 768px) {
+            .card {
+                width: 45%;
+            }
+        }
+        @media (max-width: 480px) {
+            .card {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Collaborative Coding Platform</h1>
+    </header>
+    <div class="container">
+        <div class="card">
+            <img src="https://via.placeholder.com/300" alt="Real-time Collaboration">
+            <h3>Real-time Collaboration</h3>
+            <p>Work together with your team in real-time on the same codebase.</p>
+        </div>
+        <div class="card">
+            <img src="https://via.placeholder.com/300" alt="Version Control">
+            <h3>Version Control</h3>
+            <p>Easily manage and track changes with integrated version control.</p>
+        </div>
+        <div class="card">
+            <img src="https://via.placeholder.com/300" alt="Code Reviews">
+            <h3>Code Reviews</h3>
+            <p>Conduct thorough code reviews to ensure quality and best practices.</p>
+        </div>
+    </div>
+</body>
+</html>
