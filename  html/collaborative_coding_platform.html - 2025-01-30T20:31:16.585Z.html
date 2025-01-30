@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collaborative Coding Platform</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+        nav a:hover {
+            background-color: #575757;
+        }
+        .container {
+            padding: 20px;
+        }
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+            margin: 10px;
+        }
+        .column {
+            flex: 1;
+            padding: 10px;
+        }
+        .column img {
+            width: 100%;
+            height: auto;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        @media (max-width: 600px) {
+            .row {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Collaborative Coding Platform</h1>
+    </header>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Projects</a>
+        <a href="#">Community</a>
+        <a href="#">About</a>
+    </nav>
+    <div class="container">
+        <div class="row">
+            <div class="column">
+                <h2>Welcome to Our Platform</h2>
+                <p>Join our community of developers and collaborate on exciting projects. Whether you're a beginner or an expert, there's something for everyone.</p>
+            </div>
+            <div class="column">
+                <img src="https://via.placeholder.com/600x400" alt="Collaborative Coding">
+            </div>
+        </div>
+        <div class="row">
+            <div class="column">
+                <h2>Featured Projects</h2>
+                <p>Check out some of the amazing projects our community is working on. Get inspired and contribute to open-source initiatives.</p>
+            </div>
+            <div class="column">
+                <img src="https://via.placeholder.com/600x400" alt="Featured Projects">
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2023 Collaborative Coding Platform. All rights reserved.</p>
+    </footer>
+</body>
+</html>
