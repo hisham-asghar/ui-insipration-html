@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collaborative Cooking Platform</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+        }
+        header {
+            background: #ff6347;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #333;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+        .card {
+            background: #f9f9f9;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            margin: 10px;
+            padding: 15px;
+            max-width: 300px;
+            text-align: center;
+        }
+        .card img {
+            max-width: 100%;
+            border-radius: 5px;
+        }
+        footer {
+            text-align: center;
+            padding: 15px;
+            background: #eee;
+            margin-top: auto;
+        }
+        @media (max-width: 600px) {
+            .container {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Collaborative Cooking Platform</h1>
+        <p>Cook, Share, and Enjoy Together!</p>
+    </header>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Recipes</a>
+        <a href="#">Community</a>
+        <a href="#">Contact</a>
+    </nav>
+    <div class="container">
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1589945240210-7c6a1b5e1d3f" alt="Delicious Dish">
+            <h2>Recipe Title</h2>
+            <p>Learn how to make this delicious dish.</p>
+            <button>View Recipe</button>
+        </div>
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0" alt="Cooking Together">
+            <h2>Cooking Together</h2>
+            <p>Join us for a fun cooking session!</p>
+            <button>Join Now</button>
+        </div>
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1600972477890-1e4a0c9b2f23" alt="Food Community">
+            <h2>Food Community</h2>
+            <p>Connect with fellow food lovers.</p>
+            <button>Explore Community</button>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2023 Collaborative Cooking Platform</p>
+    </footer>
+</body>
+</html>
