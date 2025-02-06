@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collaborative Gardening Hub</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+        header { background: #4CAF50; color: white; padding: 10px 20px; text-align: center; }
+        nav { margin: 20px 0; }
+        nav a { margin: 0 15px; color: #4CAF50; text-decoration: none; }
+        .container { max-width: 1200px; margin: auto; padding: 20px; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 20px; }
+        .card { border: 1px solid #ddd; border-radius: 5px; overflow: hidden; box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1); }
+        .card img { width: 100%; height: auto; }
+        .card h3 { padding: 15px; }
+        footer { text-align: center; padding: 20px; background: #4CAF50; color: white; position: relative; bottom: 0; width: 100%; }
+        @media (max-width: 600px) { nav { display: flex; flex-direction: column; align-items: center; } }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Collaborative Gardening Hub</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Join Us</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+    <div class="container">
+        <h2>Explore Our Community Gardens</h2>
+        <div class="grid">
+            <div class="card">
+                <img src="https://images.pexels.com/photos/1108579/pexels-photo-1108579.jpeg" alt="Community Garden 1">
+                <h3>Sunnyvale Community Garden</h3>
+            </div>
+            <div class="card">
+                <img src="https://images.pexels.com/photos/1083317/pexels-photo-1083317.jpeg" alt="Community Garden 2">
+                <h3>Green Thumb Collective</h3>
+            </div>
+            <div class="card">
+                <img src="https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg" alt="Community Garden 3">
+                <h3>Urban Oasis Garden</h3>
+            </div>
+            <div class="card">
+                <img src="https://images.pexels.com/photos/2422454/pexels-photo-2422454.jpeg" alt="Community Garden 4">
+                <h3>Harvest Lane Garden</h3>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2023 Collaborative Gardening Hub. All rights reserved.</p>
+    </footer>
+</body>
+</html>
