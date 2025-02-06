@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collaborative Gardening Community</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        nav {
+            margin: 10px 0;
+        }
+        nav a {
+            color: white;
+            padding: 10px 15px;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background 0.3s;
+        }
+        nav a:hover {
+            background: #45a049;
+        }
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: auto;
+            overflow: hidden;
+        }
+        .main {
+            float: left;
+            width: 70%;
+            padding: 20px;
+        }
+        .sidebar {
+            float: right;
+            width: 30%;
+            padding: 20px;
+            background: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            clear: both;
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        @media (max-width: 768px) {
+            .main, .sidebar {
+                float: none;
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Collaborative Gardening Community</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">About Us</a>
+            <a href="#">Join Us</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="main">
+            <h2>Welcome to Our Gardening Community</h2>
+            <img src="https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&q=80&w=1080" alt="Gardening" style="width: 100%; height: auto;">
+            <p>Join us in sharing tips, ideas, and resources to help each other create beautiful gardens. Whether you're a beginner or a seasoned gardener, there's a place for you in our community!</p>
+            <h3>Latest Articles</h3>
+            <ul>
+                <li><a href="#">5 Tips for Sustainable Gardening</a></li>
+                <li><a href="#">How to Start a Community Garden</a></li>
+                <li><a href="#">Seasonal Planting Guide</a></li>
+            </ul>
+        </div>
+        <div class="sidebar">
+            <h3>Upcoming Events</h3>
+            <ul>
+                <li>Garden Workshop - March 15</li>
+                <li>Spring Plant Swap - April 5</li>
+                <li>Community Clean-Up - May 20</li>
+            </ul>
+            <h3>Join Us</h3>
+            <p>Become a member today and connect with fellow gardening enthusiasts!</p>
+            <a href="#" style="display: inline-block; padding: 10px; background: #4CAF50; color: white; text-decoration: none; border-radius: 5px;">Sign Up</a>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2023 Collaborative Gardening Community. All rights reserved.</p>
+    </footer>
+</body>
+</html>
