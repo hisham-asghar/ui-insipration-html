@@ -1,0 +1,29 @@
+/* Tailwind CSS for a 'Sustainable Living' portfolio */
+
+@media (max-width: 768px) {
+  .nav-bar { display: block; }
+  .nav-item { margin: 10px 0; }
+}
+
+.nav-bar {
+  @apply flex justify-between p-5 bg-green-500 text-white;
+}
+
+.nav-item {
+  @apply mr-5 transition-transform duration-300;
+}
+
+.nav-item:hover {
+  @apply transform scale-110;
+}
+
+/* Modern animation for intro section */
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.intro {
+  @apply animate-fadeIn;
+  animation: fadeIn 2s ease-in-out;
+}
