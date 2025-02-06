@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collaborative Cooking Community</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        header {
+            background-color: #ff6347;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #ff4500;
+        }
+        nav a {
+            color: white;
+            padding: 15px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background-color: #ff6347;
+        }
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            padding: 20px;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+        }
+        .card {
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .card img {
+            width: 100%;
+            height: auto;
+        }
+        .card h3 {
+            padding: 15px;
+            margin: 0;
+            background-color: #f9f9f9;
+        }
+        .card p {
+            padding: 0 15px 15px;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #f1f1f1;
+        }
+        @media (max-width: 600px) {
+            nav {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Collaborative Cooking Community</h1>
+        <p>Join us to share recipes and cooking tips!</p>
+    </header>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#recipes">Recipes</a>
+        <a href="#about">About Us</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="container">
+        <h2>Featured Recipes</h2>
+        <div class="grid">
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1504674900247-5d69d61d8f7e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDB8fGZvcm50dWF8ZW58MHx8fHwxNjI4NDUwMjgy&ixlib=rb-1.2.1&q=80&w=400" alt="Pasta Dish">
+                <h3>Delicious Pasta</h3>
+                <p>A simple yet flavorful pasta dish that everyone will love!</p>
+            </div>
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1568605111620-8e7b1f12e5c4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDJ8fGJ1cmdlcmluZ3xlbnwwfHx8fDE2Mjg0NTAzODg&ixlib=rb-1.2.1&q=80&w=400" alt="Burger">
+                <h3>Ultimate Burger</h3>
+                <p>Join us for a juicy burger that packs a punch of flavor!</p>
+            </div>
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1556914478-1f832a0e6de7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDV8fGNhY2V8ZW58MHx8fHwxNjI4NDUwNDAw&ixlib=rb-1.2.1&q=80&w=400" alt="Cake">
+                <h3>Chocolate Cake</h3>
+                <p>A rich and moist chocolate cake perfect for any occasion!</p>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2023 Collaborative Cooking Community. All rights reserved.</p>
+    </footer>
+</body>
+</html>
