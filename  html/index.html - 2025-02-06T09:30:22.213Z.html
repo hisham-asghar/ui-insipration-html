@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collaborative Art Space</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #35424a;
+            color: #ffffff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        nav {
+            margin: 20px 0;
+        }
+        nav a {
+            color: #ffffff;
+            margin: 0 15px;
+            text-decoration: none;
+            font-size: 18px;
+        }
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            padding: 20px;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+        }
+        .card {
+            background: #ffffff;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+        .card img {
+            width: 100%;
+        }
+        .card-content {
+            padding: 15px;
+        }
+        footer {
+            text-align: center;
+            padding: 20px 0;
+            background: #35424a;
+            color: #ffffff;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        @media (max-width: 600px) {
+            nav a {
+                display: block;
+                margin: 10px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to the Collaborative Art Space</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Gallery</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+    <div class="container">
+        <h2>Featured Artwork</h2>
+        <div class="grid">
+            <div class="card">
+                <img src="https://source.unsplash.com/random/300x200?art,1" alt="Art 1">
+                <div class="card-content">
+                    <h3>Art Piece Title 1</h3>
+                    <p>Description of the artwork goes here.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://source.unsplash.com/random/300x200?art,2" alt="Art 2">
+                <div class="card-content">
+                    <h3>Art Piece Title 2</h3>
+                    <p>Description of the artwork goes here.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://source.unsplash.com/random/300x200?art,3" alt="Art 3">
+                <div class="card-content">
+                    <h3>Art Piece Title 3</h3>
+                    <p>Description of the artwork goes here.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://source.unsplash.com/random/300x200?art,4" alt="Art 4">
+                <div class="card-content">
+                    <h3>Art Piece Title 4</h3>
+                    <p>Description of the artwork goes here.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2023 Collaborative Art Space. All rights reserved.</p>
+    </footer>
+</body>
+</html>
