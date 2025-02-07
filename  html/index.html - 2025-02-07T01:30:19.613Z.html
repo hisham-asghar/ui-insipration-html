@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collaborative Gardening Community</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+        header { background: #4CAF50; color: white; padding: 1rem; text-align: center; }
+        nav { margin: 1rem 0; }
+        nav a { color: white; margin: 0 15px; text-decoration: none; }
+        .container { width: 90%; max-width: 1200px; margin: auto; }
+        .cards { display: flex; flex-wrap: wrap; justify-content: space-between; }
+        .card { background: #f9f9f9; border: 1px solid #ddd; border-radius: 8px; margin: 1rem; padding: 1rem; flex: 1 1 30%; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); }
+        .card img { width: 100%; border-radius: 8px; }
+        footer { text-align: center; padding: 1rem; background: #333; color: white; }
+        @media (max-width: 768px) { .card { flex: 1 1 100%; } }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Collaborative Gardening Community</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">About Us</a>
+            <a href="#">Join Us</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+    <div class="container">
+        <h2>Latest Gardening Projects</h2>
+        <div class="cards">
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1526378091745-6c4e0e0c7e6e" alt="Community Garden">
+                <h3>Community Garden Initiative</h3>
+                <p>Join us in creating a community garden that brings everyone together and promotes sustainability.</p>
+            </div>
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1496361288862-8c0b4e5c2c15" alt="Urban Gardening">
+                <h3>Urban Gardening Workshops</h3>
+                <p>Learn how to grow your own food in limited spaces with our urban gardening workshops.</p>
+            </div>
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1521986394615-5a02a10155c9" alt="Plant Exchange">
+                <h3>Plant Exchange Events</h3>
+                <p>Bring your extra plants and exchange them with fellow gardeners at our monthly events.</p>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2023 Collaborative Gardening Community. All rights reserved.</p>
+    </footer>
+</body>
+</html>
