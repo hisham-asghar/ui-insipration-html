@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collaborative Gardening Community</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #35424a;
+            color: #ffffff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            margin: 20px 0;
+        }
+        nav a {
+            color: #ffffff;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .hero {
+            background: url('https://images.unsplash.com/photo-1574169208507-8a3b1a1f3e8b') no-repeat center center/cover;
+            height: 300px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #ffffff;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+        }
+        .hero h1 {
+            font-size: 3em;
+            margin: 0;
+        }
+        .content {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin: 20px 0;
+        }
+        .card {
+            background: #ffffff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin: 10px;
+            flex: 1 1 calc(30% - 20px);
+            max-width: calc(30% - 20px);
+        }
+        .card img {
+            width: 100%;
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+        }
+        .card h3 {
+            padding: 10px;
+        }
+        .card p {
+            padding: 0 10px 10px;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #35424a;
+            color: #ffffff;
+        }
+        @media (max-width: 768px) {
+            .card {
+                flex: 1 1 calc(45% - 20px);
+                max-width: calc(45% - 20px);
+            }
+        }
+        @media (max-width: 480px) {
+            .card {
+                flex: 1 1 100%;
+                max-width: 100%;
+            }
+            .hero h1 {
+                font-size: 2em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Collaborative Gardening Community</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">About Us</a>
+            <a href="#">Join Us</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+    <div class="hero">
+        <h1>Grow Together, Share Knowledge</h1>
+    </div>
+    <div class="container">
+        <div class="content">
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1553031442-4e4e6c5f7a2d" alt="Garden 1">
+                <h3>Community Gardens</h3>
+                <p>Join a local community garden and share your gardening experience with others.</p>
+            </div>
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1521681880453-8e23e5c8c7d1" alt="Garden 2">
+                <h3>Workshops</h3>
+                <p>Participate in workshops to learn new gardening techniques and skills.</p>
+            </div>
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1518605332698-1d02b3d5c8f6" alt="Garden 3">
+                <h3>Events</h3>
+                <p>Join us for seasonal events and connect with fellow gardening enthusiasts.</p>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2023 Collaborative Gardening Community. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
