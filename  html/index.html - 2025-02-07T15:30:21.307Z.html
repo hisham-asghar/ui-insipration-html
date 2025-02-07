@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collaborative Gardening Community</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+        header { background: #4CAF50; color: white; padding: 10px 0; text-align: center; }
+        nav { margin: 15px 0; }
+        nav a { margin: 0 15px; color: white; text-decoration: none; }
+        .container { max-width: 1200px; margin: auto; padding: 20px; }
+        .grid { display: flex; flex-wrap: wrap; gap: 20px; }
+        .card { flex: 1 1 calc(33.333% - 20px); background: #f4f4f4; border-radius: 5px; padding: 15px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+        img { max-width: 100%; border-radius: 5px; }
+        footer { text-align: center; padding: 20px; background: #333; color: white; position: relative; bottom: 0; width: 100%; }
+        @media (max-width: 768px) { .card { flex: 1 1 calc(50% - 20px); } }
+        @media (max-width: 480px) { .card { flex: 1 1 100%; } }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Collaborative Gardening Community</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">About Us</a>
+            <a href="#">Join Us</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+    <div class="container">
+        <h2>Our Latest Gardening Projects</h2>
+        <div class="grid">
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1512008177532-5e99a0a6b5d2" alt="Community Garden">
+                <h3>Community Garden Project</h3>
+                <p>Join us in creating a community garden that brings people together.</p>
+            </div>
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1525461021030-9a0b4c5f6d1b" alt="Urban Gardening">
+                <h3>Urban Gardening Initiative</h3>
+                <p>Learn how to grow your own food in urban settings.</p>
+            </div>
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0" alt="Gardening Workshop">
+                <h3>Gardening Workshop</h3>
+                <p>Participate in our hands-on gardening workshops.</p>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2023 Collaborative Gardening Community | Follow us on <a href="#" style="color: #4CAF50;">Social Media</a></p>
+    </footer>
+</body>
+</html>
