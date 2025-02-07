@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collaborative Gardening</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        header {
+            background: #4CAF50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            margin: 20px 0;
+        }
+        nav a {
+            color: #4CAF50;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        .container {
+            padding: 20px;
+        }
+        .responsive-img {
+            width: 100%;
+            height: auto;
+        }
+        .card {
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            margin: 10px 0;
+            padding: 15px;
+        }
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        @media (min-width: 600px) {
+            .card {
+                display: flex;
+                align-items: center;
+            }
+            .card img {
+                width: 150px;
+                margin-right: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Collaborative Gardening</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Join Us</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+    <div class="container">
+        <h2>Welcome to the Collaborative Gardening Community!</h2>
+        <p>Join us in our mission to promote sustainable gardening practices through collaboration and shared resources.</p>
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0" alt="Garden" class="responsive-img">
+            <div>
+                <h3>Community Gardens</h3>
+                <p>Explore local community gardens where you can grow your own plants and vegetables.</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1521994002026-0a2b3c0d1d1b" alt="Planting" class="responsive-img">
+            <div>
+                <h3>Workshops</h3>
+                <p>Participate in workshops to learn new gardening techniques and share your knowledge with others.</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1494855002598-6c6e5f9b8d44" alt="Harvest" class="responsive-img">
+            <div>
+                <h3>Harvest Events</h3>
+                <p>Join us for seasonal harvest events where we celebrate our community's efforts!</p>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2023 Collaborative Gardening. All rights reserved.</p>
+    </footer>
+</body>
+</html>
