@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collaborative Cooking Platform</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #ff5722;
+            color: white;
+            padding: 20px;
+            width: 100%;
+            text-align: center;
+        }
+        nav {
+            margin: 15px 0;
+        }
+        nav a {
+            margin: 0 15px;
+            color: white;
+            text-decoration: none;
+        }
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: auto;
+        }
+        .card {
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            margin: 20px;
+            padding: 20px;
+            flex: 1 1 calc(33% - 40px);
+            box-sizing: border-box;
+        }
+        .grid {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        img {
+            max-width: 100%;
+            border-radius: 8px;
+        }
+        footer {
+            margin-top: 20px;
+            padding: 20px;
+            background-color: #333;
+            color: white;
+            width: 100%;
+            text-align: center;
+        }
+        @media (max-width: 768px) {
+            .card {
+                flex: 1 1 calc(50% - 40px);
+            }
+        }
+        @media (max-width: 480px) {
+            .card {
+                flex: 1 1 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Collaborative Cooking</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Recipes</a>
+            <a href="#">Join Us</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+    <div class="container">
+        <h2>Explore Our Recipes</h2>
+        <div class="grid">
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1567306226416-28f0efdc88ce" alt="Delicious Pasta">
+                <h3>Italian Pasta</h3>
+                <p>Learn how to make authentic Italian pasta from scratch.</p>
+            </div>
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1514516876852-5ad5a6beeb57" alt="Sushi">
+                <h3>Sushi Making</h3>
+                <p>Join our sushi-making class and impress your friends!</p>
+            </div>
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1577093021201-1d7a0c5f6481" alt="Baking Bread">
+                <h3>Artisan Bread</h3>
+                <p>Discover the secrets to baking perfect artisan bread.</p>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2023 Collaborative Cooking. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
