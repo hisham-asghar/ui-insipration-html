@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collaborative Gardening Community</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 15px 0;
+            text-align: center;
+            width: 100%;
+        }
+        nav {
+            margin: 15px 0;
+        }
+        nav a {
+            margin: 0 15px;
+            color: white;
+            text-decoration: none;
+        }
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: auto;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .card {
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            margin: 10px;
+            flex: 1 1 calc(30% - 20px);
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+        }
+        .card img {
+            width: 100%;
+            height: auto;
+        }
+        .card-content {
+            padding: 15px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            width: 100%;
+        }
+        @media (max-width: 768px) {
+            .card {
+                flex: 1 1 calc(45% - 20px);
+            }
+        }
+        @media (max-width: 480px) {
+            .card {
+                flex: 1 1 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to the Collaborative Gardening Community</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Gallery</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1584532664969-9d3c6c5403e6" alt="Gardening Together">
+            <div class="card-content">
+                <h2>Gardening Together</h2>
+                <p>Join our community to learn and share gardening tips!</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1574169208500-78f4b8c1e1e3" alt="Community Garden">
+            <div class="card-content">
+                <h2>Community Gardens</h2>
+                <p>Explore local community gardens and connect with fellow gardeners.</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0" alt="Plant Exchange">
+            <div class="card-content">
+                <h2>Plant Exchange</h2>
+                <p>Meet up with others to exchange plants and seeds.</p>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2023 Collaborative Gardening Community</p>
+    </footer>
+</body>
+</html>
