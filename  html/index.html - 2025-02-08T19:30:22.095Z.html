@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collaborative Gardening</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+        header { background: #4CAF50; color: white; padding: 15px; text-align: center; }
+        nav { margin: 15px 0; }
+        nav a { margin: 0 15px; color: white; text-decoration: none; }
+        .container { padding: 20px; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 15px; }
+        .card { border: 1px solid #ddd; border-radius: 5px; overflow: hidden; }
+        .card img { width: 100%; height: auto; }
+        .card-content { padding: 15px; }
+        footer { background: #333; color: white; text-align: center; padding: 10px; position: relative; bottom: 0; width: 100%; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Collaborative Gardening</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">About Us</a>
+            <a href="#">Join Us</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+    <div class="container">
+        <h2>Our Community Gardens</h2>
+        <div class="grid">
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMTc3M3wwfDF8c2VhcmNofDl8fGdhcmRlbmluZ3xlbnwwfHx8fDE2MzE1MDAwNjc&ixlib=rb-1.2.1&q=80&w=400" alt="Garden 1">
+                <div class="card-content">
+                    <h3>Community Garden 1</h3>
+                    <p>A vibrant community space where we grow together.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1516591648108-6a6538c0f3c4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMTc3M3wwfDF8c2VhcmNofDh8fGdhcmRlbmluZ3xlbnwwfHx8fDE2MzE1MDAwNzM&ixlib=rb-1.2.1&q=80&w=400" alt="Garden 2">
+                <div class="card-content">
+                    <h3>Community Garden 2</h3>
+                    <p>Join us in growing fresh vegetables and herbs.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1518831910877-1c2d2c1e3b67?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMTc3M3wwfDF8c2VhcmNofDExfHxwYXJ0aWNsZXxlbnwwfHx8fDE2MzE1MDAwODg&ixlib=rb-1.2.1&q=80&w=400" alt="Garden 3">
+                <div class="card-content">
+                    <h3>Community Garden 3</h3>
+                    <p>A peaceful place for relaxation and gardening workshops.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2023 Collaborative Gardening. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
