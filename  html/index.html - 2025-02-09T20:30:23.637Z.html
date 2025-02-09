@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collaborative Workspace</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        header {
+            background: #4CAF50;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            margin: 20px 0;
+        }
+        nav a {
+            margin: 0 15px;
+            color: white;
+            text-decoration: none;
+        }
+        .container {
+            width: 90%;
+            margin: auto;
+            overflow: hidden;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 10px;
+        }
+        .card {
+            background: #f4f4f4;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            transition: transform 0.3s;
+        }
+        .card:hover {
+            transform: scale(1.05);
+        }
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background: #333;
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        @media (max-width: 600px) {
+            nav a {
+                display: block;
+                margin: 10px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Collaborative Workspace</h1>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#team">Team</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    <div class="container">
+        <section id="about">
+            <h2>About Us</h2>
+            <p>We are a collaborative workspace designed to foster creativity and innovation among teams.</p>
+        </section>
+        <section id="services">
+            <h2>Our Services</h2>
+            <div class="grid">
+                <div class="card">
+                    <img src="https://via.placeholder.com/250" alt="Meeting Rooms" />
+                    <h3>Meeting Rooms</h3>
+                    <p>Fully equipped meeting rooms for productive discussions.</p>
+                </div>
+                <div class="card">
+                    <img src="https://via.placeholder.com/250" alt="Open Workspace" />
+                    <h3>Open Workspace</h3>
+                    <p>A vibrant open space designed for collaboration.</p>
+                </div>
+                <div class="card">
+                    <img src="https://via.placeholder.com/250" alt="Event Space" />
+                    <h3>Event Space</h3>
+                    <p>Host your next event in our spacious venue.</p>
+                </div>
+            </div>
+        </section>
+        <section id="team">
+            <h2>Our Team</h2>
+            <p>Meet the talented individuals behind our collaborative workspace.</p>
+            <div class="grid">
+                <div class="card">
+                    <img src="https://via.placeholder.com/250" alt="Team Member 1" />
+                    <h3>John Doe</h3>
+                    <p>CEO & Founder</p>
+                </div>
+                <div class="card">
+                    <img src="https://via.placeholder.com/250" alt="Team Member 2" />
+                    <h3>Jane Smith</h3>
+                    <p>Community Manager</p>
+                </div>
+                <div class="card">
+                    <img src="https://via.placeholder.com/250" alt="Team Member 3" />
+                    <h3>Mike Johnson</h3>
+                    <p>Head of Marketing</p>
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>Get in touch with us for inquiries or to book a space.</p>
+            <form>
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2023 Collaborative Workspace. All rights reserved.</p>
+    </footer>
+</body>
+</html>
