@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collaborative Gardening Community</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #4CAF50;
+            color: white;
+            padding: 15px 0;
+            text-align: center;
+        }
+        nav {
+            margin: 0;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+        .container {
+            width: 90%;
+            margin: auto;
+            overflow: hidden;
+        }
+        .hero {
+            background-image: url('https://images.unsplash.com/photo-1593642633270-e1a7b7a1e9b4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMTc3N3wwfDF8c2VhcmNofDJ8fGdhcmRlbnxlbnwwfHx8fDE2MzY1MjA1MjY&ixlib=rb-1.2.1&q=80&w=1080');
+            height: 400px;
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+        }
+        .hero h1 {
+            font-size: 3em;
+        }
+        .content {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            padding: 20px 0;
+        }
+        .card {
+            background: white;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            margin: 10px;
+            flex: 1 1 calc(30% - 20px);
+            padding: 20px;
+            text-align: center;
+        }
+        .card img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+        footer {
+            text-align: center;
+            padding: 15px 0;
+            background: #333;
+            color: white;
+        }
+        @media (max-width: 768px) {
+            .card {
+                flex: 1 1 calc(45% - 20px);
+            }
+        }
+        @media (max-width: 480px) {
+            .card {
+                flex: 1 1 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Collaborative Gardening Community</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Events</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+    <div class="hero">
+        <h1>Join Us in Growing Together!</h1>
+    </div>
+    <div class="container">
+        <div class="content">
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1574169208505-7b9d6f8c8f8d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMTc3N3wwfDF8c2VhcmNofDIyfHxjb2xsYWJvcmF0aXZlJTIwZ2FydGVuaW5nfGVufDB8fHx8MTYzNjUyMDY5MA&ixlib=rb-1.2.1&q=80&w=1080" alt="Gardening Community">
+                <h3>Community Gardening</h3>
+                <p>Join local gardens to cultivate and share the beauty of nature.</p>
+            </div>
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1582641547020-8e2d7de3d4e8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMTc3N3wwfDF8c2VhcmNofDE4fHxjb2xsYWJvcmF0aXZlJTIwZ2FydGVuaW5nfGVufDB8fHx8MTYzNjUyMDY5MA&ixlib=rb-1.2.1&q=80&w=1080" alt="Workshops">
+                <h3>Workshops</h3>
+                <p>Participate in workshops to learn the art of gardening.</p>
+            </div>
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1564579600412-ddb5bc3c3e38?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMTc3N3wwfDF8c2VhcmNofDE4fHxjb2xsYWJvcmF0aXZlJTIwZ2FydGVuaW5nfGVufDB8fHx8MTYzNjUyMDY5MA&ixlib=rb-1.2.1&q=80&w=1080" alt="Harvesting">
+                <h3>Harvest Days</h3>
+                <p>Join us for community harvest days to gather fresh produce.</p>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2023 Collaborative Gardening Community. All rights reserved.</p>
+    </footer>
+</body>
+</html>
