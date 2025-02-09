@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collaborative Art Platform</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #35424a;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        nav {
+            margin: 20px 0;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+        }
+        .container {
+            width: 90%;
+            margin: auto;
+            overflow: hidden;
+        }
+        .main {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .card {
+            background: white;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            margin: 10px;
+            flex: 1 1 calc(30% - 20px);
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+            transition: transform 0.2s;
+        }
+        .card:hover {
+            transform: scale(1.05);
+        }
+        .card img {
+            width: 100%;
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+        }
+        .card h3 {
+            padding: 15px;
+        }
+        footer {
+            text-align: center;
+            padding: 20px 0;
+            background: #35424a;
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        @media (max-width: 768px) {
+            .card {
+                flex: 1 1 calc(45% - 20px);
+            }
+        }
+        @media (max-width: 480px) {
+            .card {
+                flex: 1 1 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Collaborative Art Platform</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Projects</a>
+            <a href="#">About Us</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="main">
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1534502450531-1c1c7a7f0f1b" alt="Art Project 1">
+                <h3>Project Title 1</h3>
+                <p>Join us in creating a vibrant mural in the city center.</p>
+            </div>
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1506765517427-e9df14d4d9d0" alt="Art Project 2">
+                <h3>Project Title 2</h3>
+                <p>A community-driven sculpture installation.</p>
+            </div>
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1585128281810-8c69c3e6a0b9" alt="Art Project 3">
+                <h3>Project Title 3</h3>
+                <p>Collaborative canvas painting event.</p>
+            </div>
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1573164574184-7a4b80e8baf0" alt="Art Project 4">
+                <h3>Project Title 4</h3>
+                <p>Digital art collaboration online.</p>
+            </div>
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1506748686214-e9df14b0d1d3" alt="Art Project 5">
+                <h3>Project Title 5</h3>
+                <p>Photography project capturing community life.</p>
+            </div>
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1515367352480-7f9a5e9d8c56" alt="Art Project 6">
+                <h3>Project Title 6</h3>
+                <p>Join us for a collaborative poetry reading!</p>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2023 Collaborative Art Platform. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
