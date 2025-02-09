@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collaborative Project - Eco-Friendly Living</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+        header { background-color: #4CAF50; color: white; padding: 1rem; text-align: center; }
+        nav { margin: 1rem 0; }
+        nav a { color: white; margin: 0 15px; text-decoration: none; }
+        .container { padding: 20px; }
+        .cards { display: flex; flex-wrap: wrap; justify-content: space-around; }
+        .card { background: white; border: 1px solid #ddd; border-radius: 5px; margin: 10px; padding: 20px; width: calc(30% - 40px); box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+        .card img { max-width: 100%; border-radius: 5px; }
+        footer { text-align: center; padding: 1rem; background-color: #f1f1f1; position: relative; bottom: 0; width: 100%; }
+        @media (max-width: 768px) { .card { width: calc(45% - 40px); } }
+        @media (max-width: 480px) { .card { width: 100%; } }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Eco-Friendly Living</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">About Us</a>
+            <a href="#">Projects</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+    <div class="container">
+        <h2>Our Collaborative Projects</h2>
+        <div class="cards">
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDF8fGVjb2xvJTIwc2xvdHRpbmd8ZW58MHx8fHwxNjc3ODk2MjA3&ixlib=rb-1.2.1&q=80&w=400" alt="Community Garden">
+                <h3>Community Garden</h3>
+                <p>Join us in creating a sustainable community garden to promote local biodiversity.</p>
+            </div>
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1574169208502-6b4c2f8d4d93?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDIyfHxldmVyZGF5fGVufDB8fHx8MTY3Nzg5NjI5Mw&ixlib=rb-1.2.1&q=80&w=400" alt="Plastic Clean-Up">
+                <h3>Plastic Clean-Up</h3>
+                <p>Help us clean our beaches and parks to reduce plastic pollution.</p>
+            </div>
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1521621711550-358dba3c6e28?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDV8fHNvbGFyfGVufDB8fHx8MTY3Nzg5NjMxMg&ixlib=rb-1.2.1&q=80&w=400" alt="Sustainable Workshops">
+                <h3>Sustainable Workshops</h3>
+                <p>Participate in workshops focused on sustainable living practices.</p>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2023 Eco-Friendly Living. All rights reserved.</p>
+    </footer>
+</body>
+</html>
