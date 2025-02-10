@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collaborative Gardening Hub</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+        header { background-color: #4CAF50; color: white; padding: 15px; text-align: center; }
+        nav { margin: 15px 0; }
+        nav a { color: #4CAF50; margin: 0 15px; text-decoration: none; }
+        .container { padding: 20px; }
+        .grid { display: flex; flex-wrap: wrap; gap: 20px; }
+        .grid-item { flex: 1 1 calc(33.333% - 20px); box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); padding: 10px; }
+        img { width: 100%; height: auto; }
+        footer { background-color: #333; color: white; text-align: center; padding: 10px; position: relative; bottom: 0; width: 100%; }
+        @media (max-width: 768px) { .grid-item { flex: 1 1 100%; } }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Collaborative Gardening Hub</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Join Us</a>
+            <a href="#">Gallery</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+    <div class="container">
+        <h2>Welcome to Our Community</h2>
+        <p>Join fellow gardening enthusiasts to share tips, resources, and grow together.</p>
+        <div class="grid">
+            <div class="grid-item">
+                <img src="https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0" alt="Gardening Together">
+                <h3>Gardening Together</h3>
+                <p>Collaborate with others to create beautiful gardens.</p>
+            </div>
+            <div class="grid-item">
+                <img src="https://images.unsplash.com/photo-1520636849075-3d43e3cfb7d1" alt="Community Events">
+                <h3>Community Events</h3>
+                <p>Participate in local gardening events and workshops.</p>
+            </div>
+            <div class="grid-item">
+                <img src="https://images.unsplash.com/photo-1604160957980-0b3730898f86" alt="Share Resources">
+                <h3>Share Resources</h3>
+                <p>Exchange seeds, plants, and gardening tools with fellow members.</p>
+            </div>
+            <div class="grid-item">
+                <img src="https://images.unsplash.com/photo-1599040223729-b1b9b5c1c9d0" alt="Garden Tips">
+                <h3>Garden Tips</h3>
+                <p>Learn and share gardening tips from experienced gardeners.</p>
+            </div>
+            <div class="grid-item">
+                <img src="https://images.unsplash.com/photo-1614801505319-abc7f640d1d6" alt="Sustainable Practices">
+                <h3>Sustainable Practices</h3>
+                <p>Promote eco-friendly gardening practices for a sustainable future.</p>
+            </div>
+            <div class="grid-item">
+                <img src="https://images.unsplash.com/photo-1504291802497-40e0e0e0a7e9" alt="Connect with Nature">
+                <h3>Connect with Nature</h3>
+                <p>Enjoy the benefits of gardening and connect with nature.</p>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2023 Collaborative Gardening Hub. All rights reserved.</p>
+    </footer>
+</body>
+</html>
