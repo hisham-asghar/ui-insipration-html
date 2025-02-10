@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collaborative Cooking Community</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #35424a;
+            color: #ffffff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            margin: 20px 0;
+        }
+        nav a {
+            color: #ffffff;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: auto;
+            overflow: hidden;
+        }
+        .card {
+            background: #ffffff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            margin: 20px 0;
+            padding: 20px;
+            text-align: center;
+            transition: transform 0.2s;
+        }
+        .card:hover {
+            transform: scale(1.05);
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+        }
+        footer {
+            background: #35424a;
+            color: #ffffff;
+            text-align: center;
+            padding: 10px 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        @media (max-width: 600px) {
+            nav a {
+                display: block;
+                margin: 10px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Collaborative Cooking Community</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Recipes</a>
+            <a href="#">Events</a>
+            <a href="#">Join Us</a>
+        </nav>
+    </header>
+    <div class="container">
+        <section class="grid">
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1523475492029-3d4b4f4f7c18?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&q=80&w=400" alt="Cooking Class" style="width:100%; border-radius: 5px;">
+                <h2>Cooking Classes</h2>
+                <p>Join our cooking classes to learn new recipes and techniques.</p>
+            </div>
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1523743431628-1c4b6e1c4e3b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&q=80&w=400" alt="Food Festival" style="width:100%; border-radius: 5px;">
+                <h2>Food Festivals</h2>
+                <p>Participate in local food festivals and share your culinary creations.</p>
+            </div>
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1506787679562-4d9a9c2e1a2b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&q=80&w=400" alt="Recipe Sharing" style="width:100%; border-radius: 5px;">
+                <h2>Recipe Sharing</h2>
+                <p>Share your favorite recipes with the community.</p>
+            </div>
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&q=80&w=400" alt="Cooking Tips" style="width:100%; border-radius: 5px;">
+                <h2>Cooking Tips</h2>
+                <p>Get tips and tricks from experienced chefs.</p>
+            </div>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2023 Collaborative Cooking Community. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
