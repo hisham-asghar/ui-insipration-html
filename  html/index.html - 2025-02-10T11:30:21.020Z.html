@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collaborative Gardening Community</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+        header { background: #4CAF50; color: white; padding: 20px; text-align: center; }
+        nav { margin: 20px 0; }
+        nav a { margin: 0 15px; color: white; text-decoration: none; }
+        .container { width: 90%; max-width: 1200px; margin: 0 auto; }
+        .grid { display: flex; flex-wrap: wrap; gap: 20px; }
+        .card { flex: 1 1 calc(33.333% - 20px); background: #f4f4f4; border-radius: 8px; padding: 15px; box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); }
+        img { max-width: 100%; border-radius: 8px; }
+        footer { text-align: center; padding: 20px; background: #333; color: white; position: relative; }
+        @media (max-width: 768px) { .card { flex: 1 1 calc(50% - 20px); } }
+        @media (max-width: 480px) { .card { flex: 1 1 100%; } }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to the Collaborative Gardening Community</h1>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    <div class="container">
+        <section id="about">
+            <h2>About Us</h2>
+            <p>Join us in our mission to promote sustainable gardening practices through collaboration and community engagement.</p>
+        </section>
+        <section id="projects">
+            <h2>Our Projects</h2>
+            <div class="grid">
+                <div class="card">
+                    <img src="https://images.unsplash.com/photo-1563242500-1a0e0e1f1f7b" alt="Community Garden">
+                    <h3>Community Garden</h3>
+                    <p>A local initiative to create a community garden in the heart of the city.</p>
+                </div>
+                <div class="card">
+                    <img src="https://images.unsplash.com/photo-1518051289786-2c2c5f8c3e8b" alt="Garden Workshops">
+                    <h3>Garden Workshops</h3>
+                    <p>Regular workshops to teach sustainable gardening techniques.</p>
+                </div>
+                <div class="card">
+                    <img src="https://images.unsplash.com/photo-1526336027188-7b1a7f63e1a2" alt="Plant Exchange">
+                    <h3>Plant Exchange</h3>
+                    <p>A platform for members to exchange plants and seeds.</p>
+                </div>
+            </div>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2023 Collaborative Gardening Community. All rights reserved.</p>
+    </footer>
+</body>
+</html>
