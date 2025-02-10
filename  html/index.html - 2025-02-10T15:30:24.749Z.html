@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collaborative Art Space</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        header {
+            background: #4CAF50;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+        nav {
+            margin: 1rem 0;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        main {
+            padding: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .card {
+            background: #f4f4f4;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            margin: 10px;
+            width: calc(30% - 20px);
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+        }
+        .card:hover {
+            transform: scale(1.05);
+        }
+        .card img {
+            width: 100%;
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+        }
+        .card-content {
+            padding: 10px;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #333;
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        @media (max-width: 768px) {
+            .card {
+                width: calc(45% - 20px);
+            }
+        }
+        @media (max-width: 480px) {
+            .card {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Collaborative Art Space</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Gallery</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDF8fGFydCUyMGNvbGxhYm9yYXRpb258ZW58MHx8fHwxNjI1NjQwOTU2&ixlib=rb-1.2.1&q=80&w=400" alt="Art Collaboration">
+            <div class="card-content">
+                <h2>Art Collaboration 1</h2>
+                <p>Join our collaborative art project where creativity meets community.</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1531041042026-8a1822b0c2b8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDB8fGFydCUyMGNvbGxhYm9yYXRpb258ZW58MHx8fHwxNjI1NjQwOTU2&ixlib=rb-1.2.1&q=80&w=400" alt="Art Collaboration">
+            <div class="card-content">
+                <h2>Art Collaboration 2</h2>
+                <p>Explore our gallery of collaborative artworks created by diverse artists.</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1499951365231-3e2e9f6886d3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDEwfHxhcnQlMjBjb2xsYWJvcmF0aW9uJTIwYXJ0fGVufDB8fHx8MTYyNTY0MDk1Ng&ixlib=rb-1.2.1&q=80&w=400" alt="Art Collaboration">
+            <div class="card-content">
+                <h2>Art Collaboration 3</h2>
+                <p>Participate in workshops and events that celebrate collaborative creativity.</p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2023 Collaborative Art Space. All rights reserved.</p>
+    </footer>
+</body>
+</html>
