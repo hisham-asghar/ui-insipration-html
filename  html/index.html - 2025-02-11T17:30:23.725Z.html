@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collaborative Art Platform</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #35424a;
+            color: #ffffff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #3c3c3c;
+        }
+        nav a {
+            color: #ffffff;
+            padding: 15px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+        nav a:hover {
+            background: #575757;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            background: #ffffff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .responsive-image {
+            width: 100%;
+            height: auto;
+        }
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background: #35424a;
+            color: #ffffff;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        @media (max-width: 768px) {
+            nav {
+                flex-direction: column;
+            }
+            nav a {
+                padding: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Collaborative Art Platform</h1>
+    </header>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="container">
+        <section id="about">
+            <h2>About Us</h2>
+            <p>We are a community of artists collaborating to create unique art pieces.</p>
+            <img src="https://images.unsplash.com/photo-1516789481818-3f1e9d0c1d4f" alt="Art collaboration" class="responsive-image">
+        </section>
+        <section id="projects">
+            <h2>Current Projects</h2>
+            <ul>
+                <li>Collaborative Mural in Downtown</li>
+                <li>Digital Art Exhibition</li>
+                <li>Community Sculpture Installation</li>
+            </ul>
+            <img src="https://images.unsplash.com/photo-1568605114967-3c8a8f6e9f6b" alt="Art project" class="responsive-image">
+        </section>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>If you're interested in collaborating, reach out to us!</p>
+            <p>Email: <a href="mailto:contact@artplatform.com">contact@artplatform.com</a></p>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2023 Collaborative Art Platform</p>
+    </footer>
+</body>
+</html>
