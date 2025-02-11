@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collaborative Gardening</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+        header { background: #4CAF50; color: white; padding: 15px; text-align: center; }
+        nav { margin: 15px 0; }
+        nav a { color: white; margin: 0 15px; text-decoration: none; }
+        .container { padding: 20px; }
+        .card { border: 1px solid #ddd; border-radius: 5px; margin: 15px 0; padding: 15px; }
+        .card img { max-width: 100%; border-radius: 5px; }
+        footer { text-align: center; padding: 10px; background: #4CAF50; color: white; position: relative; bottom: 0; width: 100%; }
+        @media (min-width: 600px) {
+            .grid { display: flex; flex-wrap: wrap; }
+            .grid-item { flex: 1; margin: 10px; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Collaborative Gardening</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Projects</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+    <div class="container">
+        <h2>Our Community Gardens</h2>
+        <div class="grid">
+            <div class="grid-item card">
+                <img src="https://images.unsplash.com/photo-1516246361904-7c8b9b38c7d0" alt="Community Garden 1">
+                <h3>Garden 1</h3>
+                <p>A vibrant community garden where neighbors come together to grow fresh produce.</p>
+            </div>
+            <div class="grid-item card">
+                <img src="https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0" alt="Community Garden 2">
+                <h3>Garden 2</h3>
+                <p>A serene space for relaxation and gardening activities.</p>
+            </div>
+            <div class="grid-item card">
+                <img src="https://images.unsplash.com/photo-1521759382133-4f3f4f95d84b" alt="Community Garden 3">
+                <h3>Garden 3</h3>
+                <p>A collaborative project focusing on sustainable gardening practices.</p>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2023 Collaborative Gardening. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
