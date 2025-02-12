@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collaborative Cooking Community</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        header {
+            background: #35424a;
+            color: #ffffff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            margin: 10px 0;
+        }
+        nav a {
+            color: #ffffff;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        .main {
+            float: left;
+            width: 70%;
+        }
+        .sidebar {
+            float: right;
+            width: 30%;
+            background: #f4f4f4;
+            padding: 15px;
+        }
+        footer {
+            background: #35424a;
+            color: #ffffff;
+            text-align: center;
+            padding: 10px 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        @media (max-width: 768px) {
+            .main, .sidebar {
+                width: 100%;
+                float: none;
+            }
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Collaborative Cooking Community</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Recipes</a>
+            <a href="#">Forum</a>
+            <a href="#">Contact Us</a>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="main">
+            <h2>Welcome to Our Cooking Community!</h2>
+            <p>Join us in sharing delicious recipes and cooking tips from around the world.</p>
+            <img src="https://images.unsplash.com/photo-1556742031-c701a7d5a5c4" alt="Cooking Together">
+            <h3>Featured Recipes</h3>
+            <ul>
+                <li><strong>Spaghetti Carbonara</strong> - A classic Italian dish.</li>
+                <li><strong>Chicken Tikka Masala</strong> - A popular Indian recipe.</li>
+                <li><strong>Vegetable Stir Fry</strong> - Quick and healthy meal.</li>
+            </ul>
+        </div>
+        <div class="sidebar">
+            <h3>Join Our Community</h3>
+            <p>Sign up to share your recipes and connect with other cooking enthusiasts!</p>
+            <form action="#" method="POST">
+                <input type="text" placeholder="Your Name" required><br><br>
+                <input type="email" placeholder="Your Email" required><br><br>
+                <input type="submit" value="Join Now">
+            </form>
+            <h3>Follow Us</h3>
+            <a href="#"><i class="fab fa-facebook"></i> Facebook</a><br>
+            <a href="#"><i class="fab fa-instagram"></i> Instagram</a><br>
+            <a href="#"><i class="fab fa-twitter"></i> Twitter</a>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2023 Collaborative Cooking Community</p>
+    </footer>
+</body>
+</html>
