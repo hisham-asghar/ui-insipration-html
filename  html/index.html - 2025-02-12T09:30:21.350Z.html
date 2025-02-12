@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collaborative Gardening Platform</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+        nav {
+            margin: 15px 0;
+        }
+        nav a {
+            margin: 0 15px;
+            color: #fff;
+            text-decoration: none;
+        }
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: auto;
+            padding: 20px;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+        }
+        .card {
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            overflow: hidden;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            transition: transform 0.3s;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+        }
+        .card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        .card h3 {
+            padding: 15px;
+            margin: 0;
+        }
+        .card p {
+            padding: 0 15px 15px;
+            margin: 0;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #f1f1f1;
+            margin-top: 20px;
+        }
+        @media (max-width: 600px) {
+            nav {
+                display: block;
+                margin: 10px 0;
+            }
+            nav a {
+                display: block;
+                margin: 5px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Collaborative Gardening Platform</h1>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#features">Features</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    <div class="container">
+        <section id="about">
+            <h2>About Us</h2>
+            <p>Join our community of gardening enthusiasts where we share tips, tools, and resources to grow together!</p>
+        </section>
+        <section id="features">
+            <h2>Featured Gardens</h2>
+            <div class="grid">
+                <div class="card">
+                    <img src="https://images.unsplash.com/photo-1571801727782-9b7f8f57c799" alt="Garden 1">
+                    <h3>Urban Garden</h3>
+                    <p>A beautiful urban garden filled with sustainable plants.</p>
+                </div>
+                <div class="card">
+                    <img src="https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0" alt="Garden 2">
+                    <h3>Community Flower Beds</h3>
+                    <p>Collaborative flower beds that brighten up our neighborhood.</p>
+                </div>
+                <div class="card">
+                    <img src="https://images.unsplash.com/photo-1512446489256-1e0e2e2f2b1a" alt="Garden 3">
+                    <h3>Vegetable Patch</h3>
+                    <p>Grow your own vegetables and share with the community.</p>
+                </div>
+                <div class="card">
+                    <img src="https://images.unsplash.com/photo-1519085361210-1f5d6964f8c5" alt="Garden 4">
+                    <h3>Herb Garden</h3>
+                    <p>Herbs for cooking and natural remedies.</p>
+                </div>
+            </div>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2023 Collaborative Gardening Platform</p>
+    </footer>
+</body>
+</html>
