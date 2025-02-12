@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collaborative Cookbook</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        header {
+            background-color: #ff6347;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            margin: 20px 0;
+        }
+        nav a {
+            margin: 0 15px;
+            color: white;
+            text-decoration: none;
+        }
+        .container {
+            padding: 20px;
+            max-width: 800px;
+            margin: auto;
+        }
+        .recipe {
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 15px;
+            margin-bottom: 20px;
+            transition: transform 0.2s;
+        }
+        .recipe:hover {
+            transform: scale(1.02);
+        }
+        .recipe img {
+            width: 100%;
+            border-radius: 5px;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #f1f1f1;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        @media (max-width: 600px) {
+            nav {
+                display: flex;
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Collaborative Cookbook</h1>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#recipes">Recipes</a>
+            <a href="#about">About Us</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    <div class="container">
+        <section id="recipes">
+            <h2>Featured Recipes</h2>
+            <div class="recipe">
+                <img src="https://images.unsplash.com/photo-1543353071-8e6e2dff35f7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&q=80&w=400" alt="Delicious Pasta">
+                <h3>Spaghetti Carbonara</h3>
+                <p>A classic Italian pasta dish made with eggs, cheese, pancetta, and pepper.</p>
+            </div>
+            <div class="recipe">
+                <img src="https://images.unsplash.com/photo-1589927986089-358123789309?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&q=80&w=400" alt="Tasty Salad">
+                <h3>Greek Salad</h3>
+                <p>A fresh salad made with tomatoes, cucumbers, olives, feta cheese, and a drizzle of olive oil.</p>
+            </div>
+            <div class="recipe">
+                <img src="https://images.unsplash.com/photo-1598511725355-5e9f36cf0c62?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&q=80&w=400" alt="Yummy Dessert">
+                <h3>Chocolate Cake</h3>
+                <p>A rich and moist chocolate cake topped with creamy chocolate frosting.</p>
+            </div>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2023 Collaborative Cookbook. All rights reserved.</p>
+    </footer>
+</body>
+</html>
