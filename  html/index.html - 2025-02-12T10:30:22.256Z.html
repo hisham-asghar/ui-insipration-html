@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collaborative Cooking Platform</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #35424a;
+            color: #ffffff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav ul {
+            padding: 0;
+            list-style: none;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: #ffffff;
+            text-decoration: none;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        #main {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin-top: 20px;
+        }
+        .card {
+            background: #ffffff;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            margin: 10px;
+            flex: 1 1 calc(30% - 20px);
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+        }
+        .card:hover {
+            transform: scale(1.05);
+        }
+        .card img {
+            width: 100%;
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+        }
+        .card h3 {
+            padding: 10px;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #35424a;
+            color: #ffffff;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        @media (max-width: 768px) {
+            .card {
+                flex: 1 1 calc(45% - 20px);
+            }
+        }
+        @media (max-width: 480px) {
+            .card {
+                flex: 1 1 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Collaborative Cooking Platform</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Recipes</a></li>
+                <li><a href="#">Community</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <div id="main">
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1506765517427-e9df14d4d9d0" alt="Cooking Together">
+                <h3>Cooking Together</h3>
+                <p>Join our community of cooking enthusiasts and share your favorite recipes!</p>
+            </div>
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1523440120591-9f2e7c9b3db3" alt="Recipe Sharing">
+                <h3>Recipe Sharing</h3>
+                <p>Share and discover new recipes from around the world.</p>
+            </div>
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1589927986089-3581237892f8" alt="Cooking Events">
+                <h3>Cooking Events</h3>
+                <p>Participate in cooking events and meet fellow food lovers.</p>
+            </div>
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1611095567020-0e7ee8a3c8c4" alt="Healthy Eating">
+                <h3>Healthy Eating</h3>
+                <p>Learn about healthy eating habits and nutritious recipes.</p>
+            </div>
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1592194996308-7b43878e84a6" alt="Baking Together">
+                <h3>Baking Together</h3>
+                <p>Join us for baking sessions and share your tips!</p>
+            </div>
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1514516877920-0b34f7d9a7dc" alt="Food Photography">
+                <h3>Food Photography</h3>
+                <p>Learn how to capture the beauty of your culinary creations.</p>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2023 Collaborative Cooking Platform</p>
+    </footer>
+</body>
+</html>
