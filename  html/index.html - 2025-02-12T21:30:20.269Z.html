@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collaborative Art Platform</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+        header { background-color: #4CAF50; color: white; padding: 10px 0; text-align: center; }
+        nav { margin: 20px 0; }
+        nav a { margin: 0 15px; color: #4CAF50; text-decoration: none; }
+        .container { width: 90%; max-width: 1200px; margin: auto; }
+        .grid { display: flex; flex-wrap: wrap; gap: 20px; }
+        .card { flex: 1 1 calc(33.333% - 20px); background-color: #f4f4f4; padding: 10px; border-radius: 5px; }
+        img { max-width: 100%; border-radius: 5px; }
+        @media (max-width: 768px) {
+            .card { flex: 1 1 calc(50% - 20px); }
+        }
+        @media (max-width: 480px) {
+            .card { flex: 1 1 100%; }
+        }
+        footer { text-align: center; padding: 20px; background-color: #4CAF50; color: white; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Collaborative Art Platform</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Gallery</a>
+            <a href="#">About Us</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+    <div class="container">
+        <h2>Featured Artworks</h2>
+        <div class="grid">
+            <div class="card">
+                <img src="https://via.placeholder.com/300" alt="Artwork 1">
+                <h3>Artwork Title 1</h3>
+                <p>Artist: Jane Doe</p>
+            </div>
+            <div class="card">
+                <img src="https://via.placeholder.com/300" alt="Artwork 2">
+                <h3>Artwork Title 2</h3>
+                <p>Artist: John Smith</p>
+            </div>
+            <div class="card">
+                <img src="https://via.placeholder.com/300" alt="Artwork 3">
+                <h3>Artwork Title 3</h3>
+                <p>Artist: Emily Johnson</p>
+            </div>
+            <div class="card">
+                <img src="https://via.placeholder.com/300" alt="Artwork 4">
+                <h3>Artwork Title 4</h3>
+                <p>Artist: Michael Brown</p>
+            </div>
+            <div class="card">
+                <img src="https://via.placeholder.com/300" alt="Artwork 5">
+                <h3>Artwork Title 5</h3>
+                <p>Artist: Sarah Davis</p>
+            </div>
+            <div class="card">
+                <img src="https://via.placeholder.com/300" alt="Artwork 6">
+                <h3>Artwork Title 6</h3>
+                <p>Artist: Chris Wilson</p>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2023 Collaborative Art Platform. All rights reserved.</p>
+    </footer>
+</body>
+</html>
