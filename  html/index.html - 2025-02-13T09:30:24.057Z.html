@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collaborative Gardening</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        header {
+            background: #4CAF50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        .main {
+            float: left;
+            width: 70%;
+            padding: 20px;
+        }
+        .sidebar {
+            float: right;
+            width: 30%;
+            padding: 20px;
+            background: #f4f4f4;
+        }
+        footer {
+            clear: both;
+            text-align: center;
+            padding: 10px;
+            background: #4CAF50;
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        @media (max-width: 600px) {
+            .main, .sidebar {
+                width: 100%;
+                float: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Collaborative Gardening</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Gardening Tips</a></li>
+                <li><a href="#">Join Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="main">
+            <h2>Welcome to Collaborative Gardening</h2>
+            <img src="https://images.unsplash.com/photo-1512080460197-3b2a4b18d79e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMTc3M3wwfDF8c2VhcmNofDF8fGdhcmRlbnxlbnwwfHx8fDE2MzE5MzYwMDM&ixlib=rb-1.2.1&q=80&w=1080" alt="Gardening" style="width:100%; height:auto;">
+            <p>Join our community of gardening enthusiasts! Share tips, collaborate on gardening projects, and learn from each other.</p>
+        </div>
+        <div class="sidebar">
+            <h3>Latest Articles</h3>
+            <ul>
+                <li><a href="#">Top 10 Plants for Beginners</a></li>
+                <li><a href="#">How to Start a Community Garden</a></li>
+                <li><a href="#">Organic Gardening Tips</a></li>
+            </ul>
+            <h3>Contact Us</h3>
+            <p>Email: info@collaborativegardening.com</p>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2023 Collaborative Gardening</p>
+    </footer>
+</body>
+</html>
