@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collaborative Gardening</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        header {
+            background: #4CAF50;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+        nav {
+            margin: 1rem 0;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            padding: 1rem;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 1rem;
+        }
+        .card {
+            background: #f9f9f9;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 1rem;
+            text-align: center;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+        footer {
+            background: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        @media (max-width: 600px) {
+            nav a {
+                display: block;
+                margin: 10px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Collaborative Gardening</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Join Us</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+    <div class="container">
+        <h2>Our Community Projects</h2>
+        <div class="grid">
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1518806765060-6b43978e84b9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MXwyMDg0MjR8MHwxfGFsbHwxfHx8fHx8fHwxNjE3NzM5MTQy&ixlib=rb-1.2.1&q=80&w=400" alt="Community Garden 1">
+                <h3>Community Garden in Downtown</h3>
+                <p>Join us to grow fresh vegetables and herbs in our community garden.</p>
+            </div>
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MXwyMDg0MjR8MHwxfGFsbHwzfHx8fHx8fHwxNjE3NzM5MTQy&ixlib=rb-1.2.1&q=80&w=400" alt="Community Garden 2">
+                <h3>Urban Rooftop Garden</h3>
+                <p>Transforming rooftops into green spaces for the community.</p>
+            </div>
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1581574227153-9a50c3d4c4f7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MXwyMDg0MjR8MHwxfGFsbHw0fHx8fHx8fHwxNjE3NzM5MTQy&ixlib=rb-1.2.1&q=80&w=400" alt="Community Garden 3">
+                <h3>School Gardening Program</h3>
+                <p>Teaching children about gardening and sustainability.</p>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2023 Collaborative Gardening. All rights reserved.</p>
+    </footer>
+</body>
+</html>
