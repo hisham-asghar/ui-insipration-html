@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collaborative Cooking Community</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #6c757d;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            margin: 20px 0;
+        }
+        nav a {
+            color: #fff;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: auto;
+            overflow: hidden;
+            padding: 20px;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 20px;
+        }
+        .card {
+            background: white;
+            padding: 15px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .card img {
+            width: 100%;
+            border-radius: 5px;
+        }
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background: #6c757d;
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        @media (max-width: 600px) {
+            nav a {
+                display: block;
+                margin: 10px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Collaborative Cooking Community</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Recipes</a>
+            <a href="#">Events</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+    <div class="container">
+        <h2>Featured Recipes</h2>
+        <div class="grid">
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1589927986089-3581237896d4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwyMDg5NzR8MHwxfGFsbHwxfHx8fHx8fHwxNjM1MzI3MzIx&ixlib=rb-1.2.1&q=80&w=400" alt="Delicious Pasta">
+                <h3>Pasta Primavera</h3>
+                <p>A classic Italian pasta dish loaded with fresh vegetables.</p>
+            </div>
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1615395285853-3c14a4a5b4c1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwyMDg5NzR8MHwxfGFsbHwzfHx8fHx8fHwxNjM1MzI3MzIx&ixlib=rb-1.2.1&q=80&w=400" alt="Healthy Salad">
+                <h3>Greek Salad</h3>
+                <p>A refreshing salad with tomatoes, cucumbers, olives, and feta cheese.</p>
+            </div>
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1600061883449-63d7c86d6b1f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwyMDg5NzR8MHwxfGFsbHw0fHx8fHx8fHwxNjM1MzI3MzIx&ixlib=rb-1.2.1&q=80&w=400" alt="Dessert">
+                <h3>Chocolate Cake</h3>
+                <p>A rich and moist chocolate cake that everyone will love.</p>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2023 Collaborative Cooking Community. All rights reserved.</p>
+    </footer>
+</body>
+</html>
