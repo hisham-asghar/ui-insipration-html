@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collaborative Gardening Space</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        nav {
+            margin: 10px 0;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+        .container {
+            padding: 20px;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 20px;
+        }
+        .card {
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .card img {
+            width: 100%;
+            height: auto;
+        }
+        .card-content {
+            padding: 15px;
+        }
+        footer {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        @media (max-width: 600px) {
+            nav {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Collaborative Gardening Space</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">About Us</a>
+            <a href="#">Join Us</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+    <div class="container">
+        <h2>Our Community Gardens</h2>
+        <div class="grid">
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1568577571362-94f4a28e9b1f" alt="Community Garden 1">
+                <div class="card-content">
+                    <h3>Garden of Hope</h3>
+                    <p>A beautiful community-driven garden providing fresh produce for local families.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0" alt="Community Garden 2">
+                <div class="card-content">
+                    <h3>Urban Oasis</h3>
+                    <p>A serene space in the city for relaxation and gardening workshops.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1574169208506-7e3e3f2d8f6d" alt="Community Garden 3">
+                <div class="card-content">
+                    <h3>Green Thumb Club</h3>
+                    <p>A collective of gardening enthusiasts sharing tips and resources.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1507803391889-55b8c7f40f7d" alt="Community Garden 4">
+                <div class="card-content">
+                    <h3>Fresh Start Farm</h3>
+                    <p>Helping families grow their own food and learn about sustainability.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2023 Collaborative Gardening Space. All rights reserved.</p>
+    </footer>
+</body>
+</html>
