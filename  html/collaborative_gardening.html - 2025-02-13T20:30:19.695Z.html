@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collaborative Gardening</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+        header { background: #4CAF50; color: white; padding: 1rem; text-align: center; }
+        nav { margin: 1rem 0; }
+        nav a { margin: 0 15px; color: white; text-decoration: none; }
+        .container { padding: 2rem; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 1.5rem; }
+        .card { border: 1px solid #ccc; border-radius: 5px; overflow: hidden; }
+        .card img { width: 100%; height: auto; }
+        .card-body { padding: 1rem; }
+        footer { text-align: center; padding: 1rem; background: #f1f1f1; }
+        @media (max-width: 600px) {
+            nav { font-size: 0.9rem; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Collaborative Gardening</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">About Us</a>
+            <a href="#">Community Gardens</a>
+            <a href="#">Resources</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+    <div class="container">
+        <h2>Join Us in Growing Together!</h2>
+        <p>Collaborative gardening is a great way to connect with your community and share the joy of growing plants. Whether you're a seasoned gardener or just starting out, there's a place for you here.</p>
+        <div class="grid">
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1511402821200-40ee60f5c66d" alt="Community Garden">
+                <div class="card-body">
+                    <h3>Community Garden 1</h3>
+                    <p>Join our community garden and grow your own vegetables!</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1492603502925-6dcf0e05e824" alt="Gardening Tools">
+                <div class="card-body">
+                    <h3>Gardening Tools</h3>
+                    <p>Learn about the tools you need for successful gardening.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1521747116042-5a810fda9664" alt="Flower Garden">
+                <div class="card-body">
+                    <h3>Flower Garden</h3>
+                    <p>Explore our beautiful flower garden and get inspired!</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0" alt="Urban Gardening">
+                <div class="card-body">
+                    <h3>Urban Gardening</h3>
+                    <p>Tips and tricks for gardening in urban settings.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2023 Collaborative Gardening. All rights reserved.</p>
+    </footer>
+</body>
+</html>
