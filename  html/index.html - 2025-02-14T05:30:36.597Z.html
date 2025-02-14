@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collaborative Cooking Hub</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        header {
+            background: #4CAF50;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+        nav {
+            margin: 10px 0;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background: #45a049;
+        }
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            padding: 20px;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+        }
+        .card {
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            overflow: hidden;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .card img {
+            width: 100%;
+            height: auto;
+        }
+        .card-content {
+            padding: 15px;
+        }
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background: #f1f1f1;
+            margin-top: 20px;
+        }
+        @media (max-width: 600px) {
+            nav {
+                display: flex;
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Collaborative Cooking Hub</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Recipes</a>
+            <a href="#">Community</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+    <div class="container">
+        <h2>Featured Recipes</h2>
+        <div class="grid">
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1506784983877-45594ef7c7d4" alt="Delicious Pasta">
+                <div class="card-content">
+                    <h3>Delicious Pasta</h3>
+                    <p>Join us in making the perfect pasta dish that everyone will love!</p>
+                    <a href="#" class="btn">View Recipe</a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1601995032444-d9f0b32b67d7" alt="Fresh Salad">
+                <div class="card-content">
+                    <h3>Fresh Salad</h3>
+                    <p>A vibrant salad packed with flavors and health benefits.</p>
+                    <a href="#" class="btn">View Recipe</a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1514516874814-5c6c4f5b1c8b" alt="Tasty Dessert">
+                <div class="card-content">
+                    <h3>Tasty Dessert</h3>
+                    <p>Learn how to make this easy and delightful dessert.</p>
+                    <a href="#" class="btn">View Recipe</a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1556740749-887f6717d7e4" alt="Grilled Chicken">
+                <div class="card-content">
+                    <h3>Grilled Chicken</h3>
+                    <p>Perfectly grilled chicken that is juicy and flavorful.</p>
+                    <a href="#" class="btn">View Recipe</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2023 Collaborative Cooking Hub. All rights reserved.</p>
+    </footer>
+</body>
+</html>
