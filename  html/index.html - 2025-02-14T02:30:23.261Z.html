@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collaborative Cooking Community</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #35424a;
+            color: #ffffff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        nav {
+            margin: 20px 0;
+        }
+        nav a {
+            color: #ffffff;
+            text-decoration: none;
+            padding: 10px 15px;
+        }
+        nav a:hover {
+            background: #e8491d;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        .main-content {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .card {
+            background: white;
+            border-radius: 5px;
+            padding: 15px;
+            margin: 10px;
+            flex: 1 0 30%;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .card img {
+            max-width: 100%;
+            border-radius: 5px;
+        }
+        footer {
+            background: #35424a;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        @media (max-width: 768px) {
+            .card {
+                flex: 1 0 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Collaborative Cooking Community</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Recipes</a>
+            <a href="#">Blog</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="main-content">
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1512058564365-4b3f0b1b6f89?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDF8fGNvb2tpbmclMjBjdWx0dXJlJTIwYXJ0aXNsZXxlbnwwfHx8fDE2Mzk4ODc0NTE&ixlib=rb-1.2.1&q=80&w=400" alt="Cooking Together">
+                <h2>Join Us in Cooking</h2>
+                <p>Share your favorite recipes and collaborate with others in the kitchen.</p>
+            </div>
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1602214486806-7b335d5b6a18?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDJ8fGNvb2tpbmclMjBhcnRpY2xlJTIwZ3JvdXAlMjBhdHRyaWN0aW9ufGVufDB8fHx8MTYzOTg4NzQ1NA&ixlib=rb-1.2.1&q=80&w=400" alt="Cooking Workshop">
+                <h2>Cooking Workshops</h2>
+                <p>Participate in workshops and enhance your cooking skills with experts.</p>
+            </div>
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1574169208500-0a5f3d8c3d48?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDN8fGNvb2tpbmclMjBjb21tdW5pdHxlbnwwfHx8fDE2Mzk4ODc0NTQ&ixlib=rb-1.2.1&q=80&w=400" alt="Recipe Sharing">
+                <h2>Share Your Recipes</h2>
+                <p>Upload and share your unique recipes with the community.</p>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2023 Collaborative Cooking Community</p>
+    </footer>
+</body>
+</html>
