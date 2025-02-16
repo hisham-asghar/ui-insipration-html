@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collaborative Gardening</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        header {
+            background: #4CAF50;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+        .container {
+            width: 90%;
+            margin: auto;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 15px;
+            margin-top: 20px;
+        }
+        .card {
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+        .card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        .card h3 {
+            padding: 15px;
+            margin: 0;
+        }
+        .card p {
+            padding: 0 15px 15px;
+            color: #555;
+        }
+        footer {
+            text-align: center;
+            padding: 15px;
+            background: #f1f1f1;
+            margin-top: 20px;
+        }
+        @media (max-width: 600px) {
+            header, footer {
+                padding: 10px;
+            }
+            .card h3 {
+                font-size: 1.2em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Collaborative Gardening</h1>
+        <p>Join hands to grow together</p>
+    </header>
+    <div class="container">
+        <div class="grid">
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0" alt="Gardening">
+                <h3>Community Garden</h3>
+                <p>Come together to create a vibrant community garden.</p>
+            </div>
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1511461278044-4f6f7c3f4a9b" alt="Planting Together">
+                <h3>Planting Together</h3>
+                <p>Learn the best practices for planting and maintaining your garden.</p>
+            </div>
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1587840226882-3a0e8f59e9b0" alt="Harvest Day">
+                <h3>Harvest Day</h3>
+                <p>Join us for a day of harvesting and sharing fresh produce.</p>
+            </div>
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1562685111-2f4d1c5a7f6d" alt="Gardening Workshop">
+                <h3>Gardening Workshops</h3>
+                <p>Participate in workshops to enhance your gardening skills.</p>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2023 Collaborative Gardening. All rights reserved.</p>
+    </footer>
+</body>
+</html>
