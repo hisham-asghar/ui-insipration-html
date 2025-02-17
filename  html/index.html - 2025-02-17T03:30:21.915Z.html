@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collaborative Gardening Community</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #28a745;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        nav {
+            margin: 20px 0;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+        .container {
+            width: 90%;
+            margin: auto;
+            overflow: hidden;
+        }
+        .main-content {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .card {
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            margin: 15px;
+            flex: 1 1 calc(30% - 30px);
+            padding: 20px;
+            box-sizing: border-box;
+            transition: transform 0.2s;
+        }
+        .card img {
+            width: 100%;
+            border-radius: 8px;
+        }
+        .card:hover {
+            transform: scale(1.05);
+        }
+        footer {
+            text-align: center;
+            padding: 20px 0;
+            background: #28a745;
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        @media (max-width: 768px) {
+            .card {
+                flex: 1 1 calc(45% - 30px);
+            }
+        }
+        @media (max-width: 480px) {
+            .card {
+                flex: 1 1 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Collaborative Gardening Community</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">About Us</a>
+            <a href="#">Gardening Tips</a>
+            <a href="#">Join Us</a>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="main-content">
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1559024574-7f0f6c9a5e0c" alt="Community Garden">
+                <h2>Community Gardens</h2>
+                <p>Join local community gardens to grow together and share resources.</p>
+            </div>
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0" alt="Gardening Tips">
+                <h2>Gardening Tips</h2>
+                <p>Learn the best gardening tips from experienced gardeners.</p>
+            </div>
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0" alt="Share Your Harvest">
+                <h2>Share Your Harvest</h2>
+                <p>Share your produce with community members and help each other.</p>
+            </div>
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1600045201636-3c0d8c2d5b1a" alt="Gardening Events">
+                <h2>Gardening Events</h2>
+                <p>Participate in fun gardening events and workshops.</p>
+            </div>
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1556740749-887f6717d7e4" alt="Planting Together">
+                <h2>Planting Together</h2>
+                <p>Join groups for planting sessions and make new friends.</p>
+            </div>
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0" alt="Garden Club">
+                <h2>Join a Garden Club</h2>
+                <p>Become a member of a local garden club and learn from others.</p>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2023 Collaborative Gardening Community. All rights reserved.</p>
+    </footer>
+</body>
+</html>
