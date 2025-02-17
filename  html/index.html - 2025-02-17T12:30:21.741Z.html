@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collaborative Art Platform</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            padding: 20px;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+        }
+        .card {
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            overflow: hidden;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .card img {
+            width: 100%;
+            height: auto;
+        }
+        .card-content {
+            padding: 15px;
+        }
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background: #333;
+            color: #fff;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        @media (max-width: 600px) {
+            nav {
+                display: block;
+            }
+            .grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Collaborative Art Platform</h1>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    <div class="container">
+        <section id="home">
+            <h2>Welcome to Our Platform</h2>
+            <p>Join artists and creators from around the world in collaborative projects.</p>
+        </section>
+        <section id="gallery">
+            <h2>Gallery</h2>
+            <div class="grid">
+                <div class="card">
+                    <img src="https://images.unsplash.com/photo-1512436991641-674f3c3b8b3e" alt="Art Piece 1">
+                    <div class="card-content">
+                        <h3>Art Piece 1</h3>
+                        <p>Created by Artist A.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0" alt="Art Piece 2">
+                    <div class="card-content">
+                        <h3>Art Piece 2</h3>
+                        <p>Created by Artist B.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="https://images.unsplash.com/photo-1517436078-1c1b1b1e6d12" alt="Art Piece 3">
+                    <div class="card-content">
+                        <h3>Art Piece 3</h3>
+                        <p>Created by Artist C.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="https://images.unsplash.com/photo-1521747116042-5a810fda9664" alt="Art Piece 4">
+                    <div class="card-content">
+                        <h3>Art Piece 4</h3>
+                        <p>Created by Artist D.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="about">
+            <h2>About Us</h2>
+            <p>We are a community of artists and creators who believe in the power of collaboration to create amazing art.</p>
+        </section>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>If you have any questions, feel free to reach out at <a href="mailto:info@collaborativeart.com">info@collaborativeart.com</a>.</p>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2023 Collaborative Art Platform</p>
+    </footer>
+</body>
+</html>
