@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collaborative Cooking Community</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+        header { background-color: #4CAF50; color: white; padding: 15px 20px; text-align: center; }
+        nav { margin: 15px 0; }
+        nav a { margin: 0 15px; color: white; text-decoration: none; }
+        .container { width: 90%; max-width: 1200px; margin: auto; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 20px; }
+        .card { border: 1px solid #ccc; border-radius: 5px; overflow: hidden; box-shadow: 2px 2px 10px rgba(0,0,0,0.1); }
+        .card img { width: 100%; height: auto; }
+        .card-content { padding: 15px; }
+        footer { text-align: center; padding: 20px; background-color: #f1f1f1; }
+        @media (max-width: 600px) { nav { flex-direction: column; } }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Collaborative Cooking Community</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Recipes</a>
+            <a href="#">Join Us</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+    <div class="container">
+        <h2>Featured Recipes</h2>
+        <div class="grid">
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1581237013000-5e1e44c7d65a" alt="Delicious Pasta" />
+                <div class="card-content">
+                    <h3>Delicious Pasta</h3>
+                    <p>Join us in cooking this delicious pasta dish that's perfect for any occasion!</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1506812571572-3d1b8c8c3b52" alt="Healthy Salad" />
+                <div class="card-content">
+                    <h3>Healthy Salad</h3>
+                    <p>A fresh and healthy salad recipe that everyone can collaborate on.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1601001881041-d29b3d2b5f96" alt="Tasty Dessert" />
+                <div class="card-content">
+                    <h3>Tasty Dessert</h3>
+                    <p>Learn to make this tasty dessert that's sure to impress your friends!</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1578926285820-5fe0191a52e8" alt="Grilled Chicken" />
+                <div class="card-content">
+                    <h3>Grilled Chicken</h3>
+                    <p>Step by step guide to grilling the perfect chicken.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2023 Collaborative Cooking Community. All rights reserved.</p>
+    </footer>
+</body>
+</html>
