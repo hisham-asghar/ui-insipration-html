@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collaborative Art Platform</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+        header { background: #4CAF50; color: white; padding: 20px; text-align: center; }
+        .container { max-width: 1200px; margin: auto; padding: 20px; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 15px; }
+        .card { border: 1px solid #ddd; border-radius: 5px; overflow: hidden; }
+        .card img { width: 100%; height: auto; }
+        .card-content { padding: 15px; }
+        footer { text-align: center; padding: 20px; background: #333; color: white; position: relative; }
+        @media (max-width: 600px) {
+            header, footer { font-size: 14px; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Collaborative Art Platform</h1>
+        <p>Join artists from around the world to create and share amazing art!</p>
+    </header>
+    <div class="container">
+        <h2>Featured Artworks</h2>
+        <div class="grid">
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1515523501452-4a7d3d3b2e09?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDJ8fGFydCUyMGNvbGxhYm9yYXRpb258ZW58MHx8fHwxNjMzNzExNzg2&ixlib=rb-1.2.1&q=80&w=400" alt="Art 1">
+                <div class="card-content">
+                    <h3>Art Title 1</h3>
+                    <p>Created by Artist 1</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1494048419908-20c3c1c0c5d0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDN8fGFydCUyMHRlYWx8ZW58MHx8fHwxNjMzNzExNzg2&ixlib=rb-1.2.1&q=80&w=400" alt="Art 2">
+                <div class="card-content">
+                    <h3>Art Title 2</h3>
+                    <p>Created by Artist 2</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1614101779233-0f2c1cfb0b4b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDV8fGFydCUyMGV4cGFuc2V8ZW58MHx8fHwxNjMzNzExNzg2&ixlib=rb-1.2.1&q=80&w=400" alt="Art 3">
+                <div class="card-content">
+                    <h3>Art Title 3</h3>
+                    <p>Created by Artist 3</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDF8fGFydCUyMGFydHxlbnwwfHx8fDE2MzM3MTE3ODI&ixlib=rb-1.2.1&q=80&w=400" alt="Art 4">
+                <div class="card-content">
+                    <h3>Art Title 4</h3>
+                    <p>Created by Artist 4</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2023 Collaborative Art Platform. All rights reserved.</p>
+    </footer>
+</body>
+</html>
