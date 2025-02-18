@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collaborative Cooking</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        header {
+            background: #ff5722;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            margin: 20px 0;
+        }
+        nav a {
+            color: #ff5722;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        .card {
+            background: #f4f4f4;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            margin: 20px;
+            padding: 15px;
+            float: left;
+            width: calc(33.333% - 40px);
+        }
+        .card img {
+            max-width: 100%;
+            border-radius: 5px;
+        }
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        @media (max-width: 768px) {
+            .card {
+                width: calc(50% - 40px);
+            }
+        }
+        @media (max-width: 480px) {
+            .card {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Collaborative Cooking</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Recipes</a>
+            <a href="#">Community</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+    <div class="container">
+        <h2>Latest Recipes</h2>
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1555685812-3b2b9e3a2f99" alt="Recipe Image">
+            <h3>Spaghetti Carbonara</h3>
+            <p>A classic Italian pasta dish made with eggs, cheese, pancetta, and pepper.</p>
+        </div>
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1574212787987-90a3b5c3e2c4" alt="Recipe Image">
+            <h3>Chicken Tikka Masala</h3>
+            <p>A popular Indian dish of marinated chicken chunks cooked in a spiced curry sauce.</p>
+        </div>
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1601002017101-eb5c9a3d4d1a" alt="Recipe Image">
+            <h3>Vegetable Stir Fry</h3>
+            <p>A quick and healthy dish loaded with colorful vegetables and a savory sauce.</p>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2023 Collaborative Cooking. All rights reserved.</p>
+    </footer>
+</body>
+</html>
