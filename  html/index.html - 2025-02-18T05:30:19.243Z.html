@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collaborative Art Platform</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #35424a;
+            color: #ffffff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            margin: 10px 0;
+        }
+        nav a {
+            color: #ffffff;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: auto;
+            overflow: hidden;
+        }
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .col {
+            flex: 1;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        .col img {
+            width: 100%;
+            height: auto;
+        }
+        footer {
+            background: #35424a;
+            color: #ffffff;
+            text-align: center;
+            padding: 10px 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        @media (max-width: 600px) {
+            .col {
+                flex: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Collaborative Art Platform</h1>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    <div class="container">
+        <section id="about" class="row">
+            <div class="col">
+                <h2>About Us</h2>
+                <p>We are a community-driven platform that encourages collaborative art projects. Join us to create, share, and inspire!</p>
+            </div>
+            <div class="col">
+                <img src="https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0" alt="Art Collaboration">
+            </div>
+        </section>
+        <section id="gallery" class="row">
+            <div class="col">
+                <h2>Gallery</h2>
+                <img src="https://images.unsplash.com/photo-1516632023608-4b3b0d7b0c1b" alt="Artwork 1">
+            </div>
+            <div class="col">
+                <img src="https://images.unsplash.com/photo-1506765517420-9d16a1e5d0d6" alt="Artwork 2">
+            </div>
+            <div class="col">
+                <img src="https://images.unsplash.com/photo-1543356408-0f8e1f5c7d9d" alt="Artwork 3">
+            </div>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2023 Collaborative Art Platform. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
