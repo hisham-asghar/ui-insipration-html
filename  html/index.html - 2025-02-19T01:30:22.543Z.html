@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collaborative Gardening</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+        header { background: #4CAF50; color: white; padding: 10px 0; text-align: center; }
+        nav { display: flex; justify-content: center; background: #333; }
+        nav a { color: white; padding: 15px; text-decoration: none; }
+        nav a:hover { background: #575757; }
+        .container { max-width: 1200px; margin: auto; padding: 20px; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 20px; }
+        .card { border: 1px solid #ccc; border-radius: 5px; overflow: hidden; }
+        .card img { width: 100%; }
+        .card h3 { margin: 0; padding: 10px; background: #f4f4f4; }
+        .card p { padding: 10px; }
+        footer { text-align: center; padding: 20px; background: #333; color: white; }
+        @media (max-width: 600px) { nav { flex-direction: column; } }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Collaborative Gardening</h1>
+        <p>Join hands to grow together!</p>
+    </header>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About Us</a>
+        <a href="#">Join Us</a>
+        <a href="#">Contact</a>
+    </nav>
+    <div class="container">
+        <h2>Our Latest Projects</h2>
+        <div class="grid">
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1513791900934-4e0c4a7d2c05" alt="Community Garden">
+                <h3>Community Garden</h3>
+                <p>A space for everyone to grow their own vegetables and flowers.</p>
+            </div>
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1563201515-6b5f15e1e2db" alt="Urban Gardening">
+                <h3>Urban Gardening</h3>
+                <p>Transforming rooftops and balconies into green spaces.</p>
+            </div>
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1559044964-2dbef9f0a7c3" alt="Gardening Workshops">
+                <h3>Gardening Workshops</h3>
+                <p>Learn together with hands-on workshops for all skill levels.</p>
+            </div>
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1560807707-8cc77767d783" alt="Plant Swap">
+                <h3>Plant Swap</h3>
+                <p>Exchange plants with fellow gardening enthusiasts.</p>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2023 Collaborative Gardening. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
