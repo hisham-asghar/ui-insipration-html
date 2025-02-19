@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collaborative Art Platform</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+        header { background: #4CAF50; color: white; padding: 10px 20px; text-align: center; }
+        nav { margin: 10px 0; }
+        nav a { color: white; margin: 0 15px; text-decoration: none; }
+        .container { max-width: 1200px; margin: auto; padding: 20px; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 20px; }
+        .card { border: 1px solid #ccc; border-radius: 5px; overflow: hidden; }
+        .card img { width: 100%; height: auto; }
+        .card-content { padding: 15px; }
+        footer { text-align: center; padding: 20px; background: #333; color: white; }
+        @media (max-width: 600px) {
+            nav { flex-direction: column; }
+            nav a { margin: 5px 0; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Collaborative Art Platform</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Gallery</a>
+            <a href="#">About Us</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+    <div class="container">
+        <h2>Gallery</h2>
+        <div class="grid">
+            <div class="card">
+                <img src="https://via.placeholder.com/300" alt="Art Piece 1">
+                <div class="card-content">
+                    <h3>Art Piece 1</h3>
+                    <p>Collaboratively created by artists from around the world.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://via.placeholder.com/300" alt="Art Piece 2">
+                <div class="card-content">
+                    <h3>Art Piece 2</h3>
+                    <p>This piece showcases the beauty of diversity in art.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://via.placeholder.com/300" alt="Art Piece 3">
+                <div class="card-content">
+                    <h3>Art Piece 3</h3>
+                    <p>A stunning example of mixed media collaboration.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://via.placeholder.com/300" alt="Art Piece 4">
+                <div class="card-content">
+                    <h3>Art Piece 4</h3>
+                    <p>A vibrant expression of collective creativity.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2023 Collaborative Art Platform. All rights reserved.</p>
+    </footer>
+</body>
+</html>
