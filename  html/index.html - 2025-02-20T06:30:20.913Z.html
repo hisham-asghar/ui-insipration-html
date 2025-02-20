@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collaborative Gardening Platform</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        header {
+            background: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        nav {
+            margin: 15px 0;
+        }
+        nav a {
+            margin: 0 15px;
+            color: white;
+            text-decoration: none;
+        }
+        .container {
+            padding: 20px;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+        }
+        .card {
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            overflow: hidden;
+            box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s;
+        }
+        .card:hover {
+            transform: scale(1.05);
+        }
+        .card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        .card-content {
+            padding: 15px;
+        }
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background: #f1f1f1;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Collaborative Gardening Platform</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Projects</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+    <div class="container">
+        <h2>Our Latest Gardening Projects</h2>
+        <div class="grid">
+            <div class="card">
+                <img src="https://www.publicdomainpictures.net/pictures/300000/velka/garden-1440139154eT8.jpg" alt="Garden Project 1">
+                <div class="card-content">
+                    <h3>Community Vegetable Garden</h3>
+                    <p>A collaborative project to grow fresh vegetables for our local food bank.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://www.publicdomainpictures.net/pictures/200000/velka/flowers-1440139154qL7.jpg" alt="Garden Project 2">
+                <div class="card-content">
+                    <h3>Flower Planting Event</h3>
+                    <p>Join us for a day of planting flowers in the community park!</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://www.publicdomainpictures.net/pictures/200000/velka/vegetable-garden-1440139154N9D.jpg" alt="Garden Project 3">
+                <div class="card-content">
+                    <h3>Herb Garden Workshop</h3>
+                    <p>Learn how to grow and care for a variety of herbs.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2023 Collaborative Gardening Platform</p>
+    </footer>
+</body>
+</html>
