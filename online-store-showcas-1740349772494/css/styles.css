@@ -1,0 +1,65 @@
+/* Tailwind CSS for an 'e-commerce-design' portfolio */
+
+@media (max-width: 768px) {
+  .nav-bar { 
+    display: block;
+  }
+  .nav-item { 
+    margin: 10px 0; 
+  }
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  @apply bg-gray-200 text-gray-800;
+}
+
+.nav-item {
+  margin-right: 15px;
+  transition: transform 0.3s ease-in-out;
+  @apply hover:text-gray-600 hover:transform hover:scale-110;
+}
+
+/* Modern animation for intro section */
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.intro {
+  animation: fadeIn 2s ease-in-out;
+  @apply text-gray-800 font-bold text-4xl mb-4;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 20px;
+  @apply mt-8;
+}
+
+.product-card {
+  @apply bg-white shadow-md rounded-lg overflow-hidden;
+}
+
+.product-image {
+  @apply h-64 w-full object-cover;
+}
+
+.product-details {
+  @apply p-4;
+}
+
+.product-name {
+  @apply text-gray-800 font-bold text-lg;
+}
+
+.product-price {
+  @apply text-gray-600 font-bold text-xl;
+}
+
+.cta-button {
+  @apply bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 rounded-lg mt-4;
+}
