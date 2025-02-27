@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>index - Fitness and Wellness Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.16/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+  <header class="bg-gray-800 text-white py-4">
+    <nav class="container mx-auto flex justify-between items-center">
+      <a href="#" class="text-2xl font-bold">Fitness and Wellness Portfolio</a>
+      <ul class="flex space-x-4">
+        <li><a href="#" class="hover:text-gray-400">Home</a></li>
+        <li><a href="#about" class="hover:text-gray-400">About</a></li>
+        <li><a href="#projects" class="hover:text-gray-400">Projects</a></li>
+        <li><a href="#contact" class="hover:text-gray-400">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="hero" class="bg-gray-100 py-20">
+      <div class="container mx-auto flex flex-col md:flex-row items-center">
+        <div class="md:w-1/2 mb-8 md:mb-0">
+          <h1 class="text-4xl font-bold mb-4">Welcome to my Fitness and Wellness Portfolio</h1>
+          <p class="text-gray-600 mb-6">Explore my work and achievements in the fitness and wellness industry.</p>
+          <a href="#" class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-3 px-6 rounded">View Projects</a>
+        </div>
+        <div class="md:w-1/2">
+          <img src="https://via.placeholder.com/500x300" alt="Fitness and Wellness" class="w-full rounded-lg shadow-lg">
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="bg-white py-20">
+      <div class="container mx-auto">
+        <h2 class="text-3xl font-bold mb-8">About Me</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <div>
+            <img src="https://via.placeholder.com/300x400" alt="About" class="w-full rounded-lg shadow-lg">
+          </div>
+          <div>
+            <p class="text-gray-600 mb-6">As a fitness and wellness enthusiast, I am passionate about helping others achieve their health and fitness goals. With years of experience in the industry, I have developed a deep understanding of the latest trends and techniques.</p>
+            <p class="text-gray-600 mb-6">My portfolio showcases a range of projects, from personal training to wellness program development. I am committed to delivering high-quality services and helping my clients reach their full potential.</p>
+            <a href="#" class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-3 px-6 rounded">Learn More</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="bg-gray-100 py-20">
+      <div class="container mx-auto">
+        <h2 class="text-3xl font-bold mb-8">My Projects</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+            <img src="https://via.placeholder.com/300x200" alt="Project 1" class="w-full">
+            <div class="p-6">
+              <h3 class="text-2xl font-bold mb-4">Project 1</h3>
+              <p class="text-gray-600 mb-4">Description of Project 1</p>
+              <a href="#" class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded">Learn More</a>
+            </div>
+          </div>
+          <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+            <img src="https://via.placeholder.com/300x200" alt="Project 2" class="w-full">
+            <div class="p-6">
+              <h3 class="text-2xl font-bold mb-4">Project 2</h3>
+              <p class="text-gray-600 mb-4">Description of Project 2</p>
+              <a href="#" class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded">Learn More</a>
+            </div>
+          </div>
+          <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+            <img src="https://via.placeholder.com/300x200" alt="Project 3" class="w-full">
+            <div class="p-6">
+              <h3 class="text-2xl font-bold mb-4">Project 3</h3>
+              <p class="text-gray-600 mb-4">Description of Project 3</p>
+              <a href="#" class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded">Learn More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="bg-white py-20">
+      <div class="container mx-auto">
+        <h2 class="text-3xl font-bold mb-8">Contact Me</h2>
+        <form class="max-w-md mx-auto">
+          <div class="mb-6">
+            <label for="name" class="block text-gray-700 font-bold mb-2">Name</label>
+            <input type="text" id="name" name="name" class="border border-gray-400 p-3 rounded-lg w-full" required>
+          </div>
+          <div class="mb-6">
+            <label for="email" class="block text-gray-700 font-bold mb-2">Email</label>
+            <input type="email" id="email" name="email" class="border border-gray-400 p-3 rounded-lg w-full" required>
+          </div>
+          <div class="mb-6">
+            <label for="message" class="block text-gray-700 font-bold mb-2">Message</label>
+            <textarea id="message" name="message" class="border border-gray-400 p-3 rounded-lg w-full" rows="5" required></textarea>
+          </div>
+          <button type="submit" class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-3 px-6 rounded">Send Message</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="bg-gray-800 text-white py-8">
+    <div class="container mx-auto flex justify-between items-center">
+      <p>&copy; 2023 Fitness and Wellness Portfolio. All rights reserved.</p>
+      <ul class="flex space-x-4">
+        <li><a href="#" class="hover:text-gray-400">Facebook</a></li>
+        <li><a href="#" class="hover:text-gray-400">Twitter</a></li>
+        <li><a href="#" class="hover:text-gray-400">Instagram</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <script src="/js/scripts.js"></script>
+</body>
+</html>
