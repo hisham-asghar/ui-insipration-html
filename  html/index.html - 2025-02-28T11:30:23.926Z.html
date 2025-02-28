@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collaborative Book Club</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+        header { background-color: #4CAF50; color: white; padding: 20px; text-align: center; }
+        nav { margin: 0; padding: 10px; }
+        nav a { color: white; margin: 0 15px; text-decoration: none; }
+        .container { padding: 20px; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 20px; }
+        .card { border: 1px solid #ccc; border-radius: 5px; padding: 15px; text-align: center; }
+        img { max-width: 100%; border-radius: 5px; }
+        footer { background-color: #f1f1f1; text-align: center; padding: 10px; position: relative; bottom: 0; width: 100%; }
+        @media (max-width: 600px) { nav { display: flex; flex-direction: column; } }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Collaborative Book Club</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">About Us</a>
+            <a href="#">Join Us</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+    <div class="container">
+        <h2>Our Latest Reads</h2>
+        <div class="grid">
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1525090408395-9b5f3c0f4f8c" alt="Book Cover 1">
+                <h3>The Great Gatsby</h3>
+                <p>Join us for a classic journey through the Roaring Twenties.</p>
+            </div>
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1512820790803-83c7e0b2b4f8" alt="Book Cover 2">
+                <h3>1984</h3>
+                <p>Dive into a dystopian future with George Orwell's masterpiece.</p>
+            </div>
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1504788179087-5a1c2eab36c2" alt="Book Cover 3">
+                <h3>To Kill a Mockingbird</h3>
+                <p>Explore themes of racial injustice and moral growth.</p>
+            </div>
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1511790747842-2f0f9c4c5cf6" alt="Book Cover 4">
+                <h3>Pride and Prejudice</h3>
+                <p>A romantic novel that critiques the British landed gentry.</p>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2023 Collaborative Book Club. All rights reserved.</p>
+    </footer>
+</body>
+</html>
