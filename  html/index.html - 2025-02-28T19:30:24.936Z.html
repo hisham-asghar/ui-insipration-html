@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collaborative Workspace</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #35424a;
+            color: #ffffff;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        nav {
+            margin: 20px 0;
+        }
+        nav a {
+            color: #ffffff;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            overflow: hidden;
+            padding: 20px;
+        }
+        .flex-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .card {
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            margin: 10px;
+            flex: 1 1 calc(30% - 20px);
+            padding: 15px;
+            box-sizing: border-box;
+        }
+        img {
+            max-width: 100%;
+            border-radius: 5px;
+        }
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background: #35424a;
+            color: #ffffff;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        @media (max-width: 768px) {
+            .card {
+                flex: 1 1 calc(45% - 20px);
+            }
+        }
+        @media (max-width: 480px) {
+            .card {
+                flex: 1 1 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Collaborative Workspace</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Projects</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="flex-container">
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1580295072622-3d6097c7c67c" alt="Team Collaboration">
+                <h3>Project Management</h3>
+                <p>Manage your projects efficiently with our collaborative tools.</p>
+            </div>
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1519389950473-47f3e5b9c6b0" alt="Brainstorming">
+                <h3>Brainstorming Sessions</h3>
+                <p>Collaborate with your team to generate great ideas.</p>
+            </div>
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1601994208994-7c7f3d1f1b1f" alt="Video Conferencing">
+                <h3>Virtual Meetings</h3>
+                <p>Connect with your team from anywhere with our video conferencing tools.</p>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2023 Collaborative Workspace. All rights reserved.</p>
+    </footer>
+</body>
+</html>
