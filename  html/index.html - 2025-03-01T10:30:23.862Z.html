@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collaborative Gardening</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        header {
+            background: #4CAF50;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            margin: 20px 0;
+        }
+        nav a {
+            margin: 0 15px;
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: auto;
+            padding: 20px;
+        }
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+            margin: -10px;
+        }
+        .column {
+            flex: 1;
+            padding: 10px;
+            min-width: 300px;
+        }
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background: #4CAF50;
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        @media (max-width: 600px) {
+            nav {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Collaborative Gardening</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">About Us</a>
+            <a href="#">Join Us</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+    <div class="container">
+        <h2>Welcome to Our Community</h2>
+        <div class="row">
+            <div class="column">
+                <img src="https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDJ8fGdhcmRlbmluZ3xlbnwwfHx8fDE2NzYwMzQ2OTg&ixlib=rb-1.2.1&q=80&w=400" alt="Gardening" style="width: 100%; height: auto;">
+                <h3>Community Gardens</h3>
+                <p>Join hands with fellow gardening enthusiasts to cultivate beautiful gardens in your neighborhood.</p>
+            </div>
+            <div class="column">
+                <img src="https://images.unsplash.com/photo-1520120417750-6b8c74c3f7db?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDJ8fGdhcmRlbmluZ3xlbnwwfHx8fDE2NzYwMzQ3MDk&ixlib=rb-1.2.1&q=80&w=400" alt="Gardening Tools" style="width: 100%; height: auto;">
+                <h3>Shared Resources</h3>
+                <p>Share tools, seeds, and knowledge within our community to enhance everyone’s gardening experience.</p>
+            </div>
+            <div class="column">
+                <img src="https://images.unsplash.com/photo-1556932100-1e13e0abf5af?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDh8fGdhcmRlbmluZ3xlbnwwfHx8fDE2NzYwMzQ3MTY&ixlib=rb-1.2.1&q=80&w=400" alt="Gardening Event" style="width: 100%; height: auto;">
+                <h3>Events and Workshops</h3>
+                <p>Participate in fun events and workshops to learn new skills and meet fellow gardeners.</p>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2023 Collaborative Gardening. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
