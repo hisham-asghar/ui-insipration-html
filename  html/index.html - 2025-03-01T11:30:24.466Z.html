@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collaborative Art Platform</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        header {
+            background: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        nav {
+            margin: 20px 0;
+        }
+        nav a {
+            margin: 0 15px;
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .container {
+            padding: 20px;
+        }
+        .card {
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            margin: 10px 0;
+            padding: 15px;
+            text-align: center;
+            transition: transform 0.2s;
+        }
+        .card:hover {
+            transform: scale(1.05);
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        @media (min-width: 600px) {
+            .grid {
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                gap: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Collaborative Art Platform</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Gallery</a>
+            <a href="#">About Us</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+    <div class="container">
+        <h2>Featured Artworks</h2>
+        <div class="grid">
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0" alt="Art 1">
+                <h3>Art Title 1</h3>
+                <p>Artist Name 1</p>
+            </div>
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1517841905240-472988babdf9" alt="Art 2">
+                <h3>Art Title 2</h3>
+                <p>Artist Name 2</p>
+            </div>
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1496043082745-5d2b8a3b7c02" alt="Art 3">
+                <h3>Art Title 3</h3>
+                <p>Artist Name 3</p>
+            </div>
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1501594907351-4e59a9f4b2c5" alt="Art 4">
+                <h3>Art Title 4</h3>
+                <p>Artist Name 4</p>
+            </div>
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1518663781047-2d8f1d03e2f4" alt="Art 5">
+                <h3>Art Title 5</h3>
+                <p>Artist Name 5</p>
+            </div>
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1471622980835-6a37e5f3e5c0" alt="Art 6">
+                <h3>Art Title 6</h3>
+                <p>Artist Name 6</p>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2023 Collaborative Art Platform. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
