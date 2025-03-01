@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collaborative Art Platform</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #35424a;
+            color: #ffffff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        nav {
+            margin: 20px 0;
+        }
+        nav a {
+            color: #ffffff;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        .hero {
+            background-image: url('https://images.unsplash.com/photo-1511746482574-e9b3e4e3e5b3');
+            background-size: cover;
+            background-position: center;
+            height: 300px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+        }
+        .hero h1 {
+            font-size: 3em;
+        }
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 20px auto;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .card {
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            margin: 10px;
+            flex: 1 1 calc(30% - 20px);
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+        }
+        .card img {
+            max-width: 100%;
+            height: auto;
+        }
+        .card h3 {
+            text-align: center;
+            margin: 10px 0;
+        }
+        .card p {
+            padding: 0 15px;
+        }
+        footer {
+            background: #35424a;
+            color: #ffffff;
+            text-align: center;
+            padding: 20px 0;
+            width: 100%;
+            position: relative;
+        }
+        @media (max-width: 768px) {
+            .card {
+                flex: 1 1 calc(45% - 20px);
+            }
+        }
+        @media (max-width: 480px) {
+            .card {
+                flex: 1 1 100%;
+            }
+            .hero h1 {
+                font-size: 2em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Collaborative Art Platform</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Gallery</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+    <div class="hero">
+        <h1>Join Us in Creating Art</h1>
+    </div>
+    <div class="container">
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1543963122-d9d4e5f4c2c3" alt="Art Collaboration">
+            <h3>Art Collaboration</h3>
+            <p>Work together with artists from around the world to create stunning masterpieces.</p>
+        </div>
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1555685812-6ffbfcdbd7f5" alt="Art Workshops">
+            <h3>Art Workshops</h3>
+            <p>Join workshops to enhance your skills and connect with fellow artists.</p>
+        </div>
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1611324478689-6e4c0c9c3b07" alt="Online Exhibitions">
+            <h3>Online Exhibitions</h3>
+            <p>Showcase your art in our virtual exhibitions and gain global exposure.</p>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2023 Collaborative Art Platform. All rights reserved.</p>
+    </footer>
+</body>
+</html>
