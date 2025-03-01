@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collaborative Cooking Community</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: #f7f7f7;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 1rem;
+            width: 100%;
+            text-align: center;
+        }
+        nav {
+            margin: 1rem 0;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+        }
+        .card {
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            transition: transform 0.3s;
+        }
+        .card:hover {
+            transform: scale(1.05);
+        }
+        .card img {
+            width: 100%;
+            height: auto;
+        }
+        .card h3 {
+            margin: 10px;
+            font-size: 1.5rem;
+        }
+        .card p {
+            margin: 10px;
+            color: #555;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            width: 100%;
+            position: relative;
+            bottom: 0;
+        }
+        @media (max-width: 600px) {
+            nav {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Collaborative Cooking Community</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Recipes</a>
+            <a href="#">Join Us</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+    <div class="container">
+        <h2>Featured Recipes</h2>
+        <div class="grid">
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1589927986089-35812378d2c9" alt="Delicious Pasta">
+                <h3>Delicious Pasta</h3>
+                <p>A simple yet delicious pasta recipe that everyone will love!</p>
+            </div>
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1567306226416-a35a6c6b5b91" alt="Fresh Salad">
+                <h3>Fresh Salad</h3>
+                <p>A refreshing salad that is perfect for any season.</p>
+            </div>
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1598511723482-ddd9d8b3e8d5" alt="Chocolate Cake">
+                <h3>Chocolate Cake</h3>
+                <p>Indulge in this rich and moist chocolate cake!</p>
+            </div>
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1617751063515-4d6c8b287a77" alt="Grilled Chicken">
+                <h3>Grilled Chicken</h3>
+                <p>Perfectly grilled chicken that is juicy and flavorful.</p>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2023 Collaborative Cooking Community</p>
+    </footer>
+</body>
+</html>
